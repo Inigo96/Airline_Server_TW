@@ -622,3 +622,66 @@ org.datanucleus.store.query.QueryCompilerSyntaxException: Invalid operator "=". 
 	at org.datanucleus.api.jdo.JDOQuery.execute(JDOQuery.java:255)
 	at EasyBookingDaoImplement.searchUser(Unknown Source)
 	at Main.main(Unknown Source)
+14-01-17_17:59:02 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.0.3) para el API "JDO" utilisando el JRE "{2}"
+14-01-17_17:59:02 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class" con definicion enhanced
+14-01-17_17:59:02 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Reservation.class" con definicion enhanced
+14-01-17_17:59:03 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/User.class" con definicion enhanced
+14-01-17_17:59:03 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+14-01-17_17:59:03 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+14-01-17_17:59:03 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+14-01-17_17:59:03 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/datanucleus-api-jdo-5.0.3.jar
+14-01-17_17:59:03 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/datanucleus-core-5.0.3.jar
+14-01-17_17:59:03 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/datanucleus-rdbms-5.0.3.jar
+14-01-17_17:59:03 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/javax.jdo-3.2.0-m5.jar
+14-01-17_17:59:03 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/log4j-1.2.14.jar
+14-01-17_17:59:03 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/mysql-connector-java-5.1.40-bin.jar
+14-01-17_17:59:03 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin
+14-01-17_17:59:03 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/resources
+14-01-17_17:59:04 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+14-01-17_17:59:06 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+14-01-17_17:59:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDao.class
+14-01-17_17:59:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDaoImplement.class
+14-01-17_17:59:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Main.class
+14-01-17_17:59:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Server_Manager_Main.class
+14-01-17_17:59:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class
+14-01-17_17:59:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Reservation.class
+14-01-17_17:59:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/User.class
+14-01-17_17:59:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/gateway/AirFrance.class
+14-01-17_17:59:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/gateway/IGateway.class
+14-01-17_17:59:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/gateway/Iberia.class
+14-01-17_17:59:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/remote/IReservationService.class
+14-01-17_17:59:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/remote/ReservationService_Façade.class
+14-01-17_17:59:07 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+14-01-17_17:59:08 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+14-01-17_17:59:11 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+14-01-17_17:59:12 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+14-01-17_17:59:12 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+14-01-17_17:59:12 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+14-01-17_17:59:13 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+14-01-17_17:59:13 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+14-01-17_17:59:13 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+14-01-17_17:59:13 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+14-01-17_17:59:14 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+14-01-17_17:59:15 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+14-01-17_17:59:15 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+14-01-17_17:59:15 (main) INFO  [DataNucleus.JDO] - Exception thrown
+Variable 'user1' is unbound and cannot be determined (is it a misspelled field name? or is not intended to be a variable?)
+org.datanucleus.exceptions.NucleusUserException: Variable 'user1' is unbound and cannot be determined (is it a misspelled field name? or is not intended to be a variable?)
+	at org.datanucleus.store.rdbms.query.QueryToSQLMapper.processUnboundExpression(QueryToSQLMapper.java:4508)
+	at org.datanucleus.store.rdbms.query.QueryToSQLMapper.processEqExpression(QueryToSQLMapper.java:2507)
+	at org.datanucleus.query.expression.AbstractExpressionEvaluator.compileRelationalExpression(AbstractExpressionEvaluator.java:80)
+	at org.datanucleus.query.expression.AbstractExpressionEvaluator.compileOrAndExpression(AbstractExpressionEvaluator.java:68)
+	at org.datanucleus.query.expression.AbstractExpressionEvaluator.evaluate(AbstractExpressionEvaluator.java:36)
+	at org.datanucleus.query.expression.Expression.evaluate(Expression.java:338)
+	at org.datanucleus.query.expression.DyadicExpression.evaluate(DyadicExpression.java:75)
+	at org.datanucleus.store.rdbms.query.QueryToSQLMapper.compileFilter(QueryToSQLMapper.java:586)
+	at org.datanucleus.store.rdbms.query.QueryToSQLMapper.compile(QueryToSQLMapper.java:462)
+	at org.datanucleus.store.rdbms.query.JDOQLQuery.compileQueryFull(JDOQLQuery.java:894)
+	at org.datanucleus.store.rdbms.query.JDOQLQuery.compileInternal(JDOQLQuery.java:354)
+	at org.datanucleus.store.query.Query.executeQuery(Query.java:1883)
+	at org.datanucleus.store.query.Query.executeWithArray(Query.java:1811)
+	at org.datanucleus.store.query.Query.execute(Query.java:1793)
+	at org.datanucleus.api.jdo.JDOQuery.executeInternal(JDOQuery.java:424)
+	at org.datanucleus.api.jdo.JDOQuery.execute(JDOQuery.java:255)
+	at EasyBookingDaoImplement.searchUser(Unknown Source)
+	at Main.main(Unknown Source)
