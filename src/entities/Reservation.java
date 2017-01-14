@@ -1,4 +1,4 @@
-package entities;
+package es.deusto.ingenieria.sd.jdo.inventory;
 
 import java.util.ArrayList;
 import javax.jdo.annotations.IdGeneratorStrategy;
@@ -8,29 +8,21 @@ import javax.jdo.annotations.*;
 import javax.jdo.annotations.Persistent;
 @PersistenceCapable
 public class Reservation {
-    @Persistent
-    private int id=0;
-    @Join
+
+	@Join
     private List<Flight> flightList=new ArrayList<>();
 
+    @Override
+	public String toString() {
+		return "Reservation [flightList=" + flightList + "]";
+	}
 
-    public int getId() {
-        return id;
-    }
-
-
-    void addFlight(Flight f){
-        flightList.add(f);
+	void addFlight(Flight f){
+    	flightList.add(f);
     }
 
     void getFlight(int b){
-        flightList.get(b);
-    }
-
-
-
-    public Reservation(int id) {
-        this.id = id;
+    	flightList.get(b);
     }
 
 
