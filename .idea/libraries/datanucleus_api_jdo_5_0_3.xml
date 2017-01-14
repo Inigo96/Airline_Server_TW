@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="datanucleus-api-jdo-5.0.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/datanucleus-api-jdo-5.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

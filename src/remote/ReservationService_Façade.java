@@ -10,7 +10,7 @@ import java.util.Date;
 /**
  * Created by inigo on 30/12/16.
  */
-public class ReservationService implements IReservationService {
+public class ReservationService_Façade implements IReservationService {
 
     @Override
     public boolean createReservation(Flight f, User u) throws RemoteException {

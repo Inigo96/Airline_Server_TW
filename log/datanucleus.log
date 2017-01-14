@@ -1,0 +1,562 @@
+26-10-16_16:39:38 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.0.3) para el API "JDO" utilisando el JRE "{2}"
+26-10-16_16:39:38 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 0 clases.
+26-10-16_16:39:38 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado sin enhance ninguna clase. Compruebe el LOG para los detalles.
+26-10-16_16:45:31 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.0.3) para el API "JDO" utilisando el JRE "{2}"
+26-10-16_16:45:31 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 0 clases.
+26-10-16_16:45:31 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado sin enhance ninguna clase. Compruebe el LOG para los detalles.
+26-10-16_16:45:31 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+26-10-16_16:45:31 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+26-10-16_16:45:31 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-api-jdo-5.0.3.jar
+26-10-16_16:45:31 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-core-5.0.3.jar
+26-10-16_16:45:31 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-rdbms-5.0.3.jar
+26-10-16_16:45:31 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/javax.jdo-3.2.0-m5.jar
+26-10-16_16:45:31 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/log4j-1.2.14.jar
+26-10-16_16:45:31 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/mysql-connector-java-5.1.40-bin.jar
+26-10-16_16:45:31 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin
+26-10-16_16:45:31 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/resources
+26-10-16_16:45:32 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+26-10-16_16:45:34 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+26-10-16_16:45:34 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Main.class
+26-10-16_16:45:34 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class
+26-10-16_16:45:34 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class
+26-10-16_16:45:34 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class
+26-10-16_16:45:34 (main) ERROR [DataNucleus.Datastore.Schema] - No hay clases !
+26-10-16_16:45:34 (main) ERROR [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha lanzado una excepción. Por favor consulte el Log para ver más detalles: No hay clases !
+No hay clases !
+org.datanucleus.exceptions.NucleusException: No hay clases !
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.createSchemaForClasses(RDBMSStoreManager.java:3965)
+	at org.datanucleus.store.schema.SchemaTool.createSchemaForClasses(SchemaTool.java:510)
+	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:426)
+26-10-16_16:48:43 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.0.3) para el API "JDO" utilisando el JRE "{2}"
+26-10-16_16:48:43 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 0 clases.
+26-10-16_16:48:43 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado sin enhance ninguna clase. Compruebe el LOG para los detalles.
+26-10-16_16:48:43 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+26-10-16_16:48:43 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+26-10-16_16:48:43 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-api-jdo-5.0.3.jar
+26-10-16_16:48:43 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-core-5.0.3.jar
+26-10-16_16:48:43 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-rdbms-5.0.3.jar
+26-10-16_16:48:43 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/javax.jdo-3.2.0-m5.jar
+26-10-16_16:48:43 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/log4j-1.2.14.jar
+26-10-16_16:48:43 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/mysql-connector-java-5.1.40-bin.jar
+26-10-16_16:48:43 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin
+26-10-16_16:48:43 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/resources
+26-10-16_16:48:44 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+26-10-16_16:48:46 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+26-10-16_16:48:46 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Main.class
+26-10-16_16:48:46 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class
+26-10-16_16:48:46 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class
+26-10-16_16:48:46 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class
+26-10-16_16:48:46 (main) ERROR [DataNucleus.Datastore.Schema] - No hay clases !
+26-10-16_16:48:46 (main) ERROR [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha lanzado una excepción. Por favor consulte el Log para ver más detalles: No hay clases !
+No hay clases !
+org.datanucleus.exceptions.NucleusException: No hay clases !
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.createSchemaForClasses(RDBMSStoreManager.java:3965)
+	at org.datanucleus.store.schema.SchemaTool.createSchemaForClasses(SchemaTool.java:510)
+	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:426)
+26-10-16_16:49:53 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.0.3) para el API "JDO" utilisando el JRE "{2}"
+26-10-16_16:49:53 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 0 clases.
+26-10-16_16:49:53 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado sin enhance ninguna clase. Compruebe el LOG para los detalles.
+26-10-16_16:49:53 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+26-10-16_16:49:53 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+26-10-16_16:49:53 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-api-jdo-5.0.3.jar
+26-10-16_16:49:53 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-core-5.0.3.jar
+26-10-16_16:49:53 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-rdbms-5.0.3.jar
+26-10-16_16:49:53 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/javax.jdo-3.2.0-m5.jar
+26-10-16_16:49:53 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/log4j-1.2.14.jar
+26-10-16_16:49:53 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/mysql-connector-java-5.1.40-bin.jar
+26-10-16_16:49:53 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin
+26-10-16_16:49:53 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/resources
+26-10-16_16:49:54 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+26-10-16_16:49:56 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+26-10-16_16:49:56 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Main.class
+26-10-16_16:49:56 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class
+26-10-16_16:49:56 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class
+26-10-16_16:49:56 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class
+26-10-16_16:49:56 (main) ERROR [DataNucleus.Datastore.Schema] - No hay clases !
+26-10-16_16:49:56 (main) ERROR [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha lanzado una excepción. Por favor consulte el Log para ver más detalles: No hay clases !
+No hay clases !
+org.datanucleus.exceptions.NucleusException: No hay clases !
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.createSchemaForClasses(RDBMSStoreManager.java:3965)
+	at org.datanucleus.store.schema.SchemaTool.createSchemaForClasses(SchemaTool.java:510)
+	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:426)
+26-10-16_16:53:05 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.0.3) para el API "JDO" utilisando el JRE "{2}"
+26-10-16_16:53:05 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class" con definicion enhanced
+26-10-16_16:53:05 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class" con definicion enhanced
+26-10-16_16:53:05 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class" con definicion enhanced
+26-10-16_16:53:05 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+26-10-16_16:53:05 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+26-10-16_16:53:05 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+26-10-16_16:53:05 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-api-jdo-5.0.3.jar
+26-10-16_16:53:05 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-core-5.0.3.jar
+26-10-16_16:53:05 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-rdbms-5.0.3.jar
+26-10-16_16:53:05 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/javax.jdo-3.2.0-m5.jar
+26-10-16_16:53:05 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/log4j-1.2.14.jar
+26-10-16_16:53:05 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/mysql-connector-java-5.1.40-bin.jar
+26-10-16_16:53:05 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin
+26-10-16_16:53:05 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/resources
+26-10-16_16:53:06 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+26-10-16_16:53:08 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+26-10-16_16:53:08 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Main.class
+26-10-16_16:53:08 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class
+26-10-16_16:53:08 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class
+26-10-16_16:53:08 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class
+26-10-16_16:53:15 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+26-10-16_16:53:16 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+26-10-16_17:12:03 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.0.3) para el API "JDO" utilisando el JRE "{2}"
+26-10-16_17:12:03 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class" con definicion enhanced
+26-10-16_17:12:03 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class" con definicion enhanced
+26-10-16_17:12:03 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class" con definicion enhanced
+26-10-16_17:12:03 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+26-10-16_17:12:04 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+26-10-16_17:12:04 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+26-10-16_17:12:04 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-api-jdo-5.0.3.jar
+26-10-16_17:12:04 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-core-5.0.3.jar
+26-10-16_17:12:04 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-rdbms-5.0.3.jar
+26-10-16_17:12:04 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/javax.jdo-3.2.0-m5.jar
+26-10-16_17:12:04 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/log4j-1.2.14.jar
+26-10-16_17:12:04 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/mysql-connector-java-5.1.40-bin.jar
+26-10-16_17:12:04 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin
+26-10-16_17:12:04 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/resources
+26-10-16_17:12:04 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+26-10-16_17:12:06 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+26-10-16_17:12:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Main.class
+26-10-16_17:12:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class
+26-10-16_17:12:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class
+26-10-16_17:12:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class
+26-10-16_17:12:06 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+26-10-16_17:12:07 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+26-10-16_17:15:06 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.0.3) para el API "JDO" utilisando el JRE "{2}"
+26-10-16_17:15:06 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class" con definicion enhanced
+26-10-16_17:15:06 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class" con definicion enhanced
+26-10-16_17:15:06 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class" con definicion enhanced
+26-10-16_17:15:06 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+26-10-16_17:15:07 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+26-10-16_17:15:07 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+26-10-16_17:15:07 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-api-jdo-5.0.3.jar
+26-10-16_17:15:07 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-core-5.0.3.jar
+26-10-16_17:15:07 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-rdbms-5.0.3.jar
+26-10-16_17:15:07 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/javax.jdo-3.2.0-m5.jar
+26-10-16_17:15:07 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/log4j-1.2.14.jar
+26-10-16_17:15:07 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/mysql-connector-java-5.1.40-bin.jar
+26-10-16_17:15:07 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin
+26-10-16_17:15:07 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/resources
+26-10-16_17:15:07 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+26-10-16_17:15:09 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+26-10-16_17:15:09 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Main.class
+26-10-16_17:15:09 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class
+26-10-16_17:15:09 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class
+26-10-16_17:15:09 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class
+26-10-16_17:15:09 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+26-10-16_17:15:10 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+26-10-16_17:15:58 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.0.3) para el API "JDO" utilisando el JRE "{2}"
+26-10-16_17:15:59 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class" con definicion enhanced
+26-10-16_17:15:59 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class" con definicion enhanced
+26-10-16_17:15:59 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class" con definicion enhanced
+26-10-16_17:15:59 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+26-10-16_17:15:59 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+26-10-16_17:15:59 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+26-10-16_17:15:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-api-jdo-5.0.3.jar
+26-10-16_17:15:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-core-5.0.3.jar
+26-10-16_17:15:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-rdbms-5.0.3.jar
+26-10-16_17:15:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/javax.jdo-3.2.0-m5.jar
+26-10-16_17:15:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/log4j-1.2.14.jar
+26-10-16_17:15:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/mysql-connector-java-5.1.40-bin.jar
+26-10-16_17:15:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin
+26-10-16_17:15:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/resources
+26-10-16_17:16:00 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+26-10-16_17:16:02 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+26-10-16_17:16:02 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Main.class
+26-10-16_17:16:02 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class
+26-10-16_17:16:02 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class
+26-10-16_17:16:02 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class
+26-10-16_17:16:02 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+26-10-16_17:16:03 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+26-10-16_17:25:33 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.0.3) para el API "JDO" utilisando el JRE "{2}"
+26-10-16_17:25:33 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class" con definicion enhanced
+26-10-16_17:25:33 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class" con definicion enhanced
+26-10-16_17:25:33 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class" con definicion enhanced
+26-10-16_17:25:33 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+26-10-16_17:25:34 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+26-10-16_17:25:34 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+26-10-16_17:25:34 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-api-jdo-5.0.3.jar
+26-10-16_17:25:34 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-core-5.0.3.jar
+26-10-16_17:25:34 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-rdbms-5.0.3.jar
+26-10-16_17:25:34 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/javax.jdo-3.2.0-m5.jar
+26-10-16_17:25:34 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/log4j-1.2.14.jar
+26-10-16_17:25:34 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/mysql-connector-java-5.1.40-bin.jar
+26-10-16_17:25:34 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin
+26-10-16_17:25:34 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/resources
+26-10-16_17:25:34 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+26-10-16_17:25:36 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+26-10-16_17:25:36 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Main.class
+26-10-16_17:25:36 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class
+26-10-16_17:25:36 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class
+26-10-16_17:25:36 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class
+26-10-16_17:25:36 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+26-10-16_17:25:37 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+26-10-16_17:28:06 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Eliminación del esquema para clases
+26-10-16_17:28:06 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+26-10-16_17:28:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-api-jdo-5.0.3.jar
+26-10-16_17:28:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-core-5.0.3.jar
+26-10-16_17:28:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-rdbms-5.0.3.jar
+26-10-16_17:28:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/javax.jdo-3.2.0-m5.jar
+26-10-16_17:28:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/log4j-1.2.14.jar
+26-10-16_17:28:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/mysql-connector-java-5.1.40-bin.jar
+26-10-16_17:28:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin
+26-10-16_17:28:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/resources
+26-10-16_17:28:06 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+26-10-16_17:28:08 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+26-10-16_17:28:08 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Main.class
+26-10-16_17:28:08 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class
+26-10-16_17:28:08 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class
+26-10-16_17:28:08 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class
+26-10-16_17:28:09 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+26-10-16_17:28:21 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.0.3) para el API "JDO" utilisando el JRE "{2}"
+26-10-16_17:28:22 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class" con definicion enhanced
+26-10-16_17:28:22 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class" con definicion enhanced
+26-10-16_17:28:22 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class" con definicion enhanced
+26-10-16_17:28:22 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+26-10-16_17:28:22 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+26-10-16_17:28:22 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+26-10-16_17:28:22 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-api-jdo-5.0.3.jar
+26-10-16_17:28:22 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-core-5.0.3.jar
+26-10-16_17:28:22 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-rdbms-5.0.3.jar
+26-10-16_17:28:22 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/javax.jdo-3.2.0-m5.jar
+26-10-16_17:28:22 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/log4j-1.2.14.jar
+26-10-16_17:28:22 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/mysql-connector-java-5.1.40-bin.jar
+26-10-16_17:28:22 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin
+26-10-16_17:28:22 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/resources
+26-10-16_17:28:22 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+26-10-16_17:28:24 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+26-10-16_17:28:24 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Main.class
+26-10-16_17:28:24 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class
+26-10-16_17:28:24 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class
+26-10-16_17:28:24 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class
+26-10-16_17:28:33 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+26-10-16_17:28:33 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+26-10-16_17:29:54 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Eliminación del esquema para clases
+26-10-16_17:29:54 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+26-10-16_17:29:54 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-api-jdo-5.0.3.jar
+26-10-16_17:29:54 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-core-5.0.3.jar
+26-10-16_17:29:54 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-rdbms-5.0.3.jar
+26-10-16_17:29:54 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/javax.jdo-3.2.0-m5.jar
+26-10-16_17:29:54 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/log4j-1.2.14.jar
+26-10-16_17:29:54 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/mysql-connector-java-5.1.40-bin.jar
+26-10-16_17:29:54 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin
+26-10-16_17:29:54 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/resources
+26-10-16_17:29:54 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+26-10-16_17:29:56 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+26-10-16_17:29:56 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Main.class
+26-10-16_17:29:56 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class
+26-10-16_17:29:56 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class
+26-10-16_17:29:56 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class
+26-10-16_17:29:58 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+26-10-16_17:30:03 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.0.3) para el API "JDO" utilisando el JRE "{2}"
+26-10-16_17:30:03 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class" con definicion enhanced
+26-10-16_17:30:03 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class" con definicion enhanced
+26-10-16_17:30:03 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class" con definicion enhanced
+26-10-16_17:30:03 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+26-10-16_17:30:04 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+26-10-16_17:30:04 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+26-10-16_17:30:04 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-api-jdo-5.0.3.jar
+26-10-16_17:30:04 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-core-5.0.3.jar
+26-10-16_17:30:04 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-rdbms-5.0.3.jar
+26-10-16_17:30:04 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/javax.jdo-3.2.0-m5.jar
+26-10-16_17:30:04 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/log4j-1.2.14.jar
+26-10-16_17:30:04 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/mysql-connector-java-5.1.40-bin.jar
+26-10-16_17:30:04 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin
+26-10-16_17:30:04 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/resources
+26-10-16_17:30:04 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+26-10-16_17:30:06 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+26-10-16_17:30:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Main.class
+26-10-16_17:30:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class
+26-10-16_17:30:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class
+26-10-16_17:30:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class
+26-10-16_17:30:15 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+26-10-16_17:30:16 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+26-10-16_17:31:00 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.0.3) para el API "JDO" utilisando el JRE "{2}"
+26-10-16_17:31:00 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class" con definicion enhanced
+26-10-16_17:31:00 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class" con definicion enhanced
+26-10-16_17:31:00 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class" con definicion enhanced
+26-10-16_17:31:00 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+26-10-16_17:31:00 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+26-10-16_17:31:00 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+26-10-16_17:31:00 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-api-jdo-5.0.3.jar
+26-10-16_17:31:00 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-core-5.0.3.jar
+26-10-16_17:31:00 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-rdbms-5.0.3.jar
+26-10-16_17:31:00 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/javax.jdo-3.2.0-m5.jar
+26-10-16_17:31:00 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/log4j-1.2.14.jar
+26-10-16_17:31:00 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/mysql-connector-java-5.1.40-bin.jar
+26-10-16_17:31:00 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin
+26-10-16_17:31:00 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/resources
+26-10-16_17:31:01 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+26-10-16_17:31:03 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+26-10-16_17:31:03 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Main.class
+26-10-16_17:31:03 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class
+26-10-16_17:31:03 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class
+26-10-16_17:31:03 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class
+26-10-16_17:31:03 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+26-10-16_17:31:04 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+26-10-16_17:33:23 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Eliminación del esquema para clases
+26-10-16_17:33:23 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+26-10-16_17:33:23 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-api-jdo-5.0.3.jar
+26-10-16_17:33:23 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-core-5.0.3.jar
+26-10-16_17:33:23 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-rdbms-5.0.3.jar
+26-10-16_17:33:23 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/javax.jdo-3.2.0-m5.jar
+26-10-16_17:33:23 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/log4j-1.2.14.jar
+26-10-16_17:33:23 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/mysql-connector-java-5.1.40-bin.jar
+26-10-16_17:33:23 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin
+26-10-16_17:33:23 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/resources
+26-10-16_17:33:23 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+26-10-16_17:33:24 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+26-10-16_17:33:24 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Main.class
+26-10-16_17:33:24 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class
+26-10-16_17:33:24 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class
+26-10-16_17:33:24 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class
+26-10-16_17:33:26 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+26-10-16_17:33:49 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.0.3) para el API "JDO" utilisando el JRE "{2}"
+26-10-16_17:33:49 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class" con definicion enhanced
+26-10-16_17:33:49 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class" con definicion enhanced
+26-10-16_17:33:49 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class" con definicion enhanced
+26-10-16_17:33:49 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+26-10-16_17:33:49 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+26-10-16_17:33:49 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+26-10-16_17:33:49 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-api-jdo-5.0.3.jar
+26-10-16_17:33:49 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-core-5.0.3.jar
+26-10-16_17:33:49 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-rdbms-5.0.3.jar
+26-10-16_17:33:49 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/javax.jdo-3.2.0-m5.jar
+26-10-16_17:33:49 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/log4j-1.2.14.jar
+26-10-16_17:33:49 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/mysql-connector-java-5.1.40-bin.jar
+26-10-16_17:33:49 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin
+26-10-16_17:33:49 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/resources
+26-10-16_17:33:50 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+26-10-16_17:33:52 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+26-10-16_17:33:52 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Main.class
+26-10-16_17:33:52 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class
+26-10-16_17:33:52 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class
+26-10-16_17:33:52 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class
+26-10-16_17:34:00 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+26-10-16_17:34:01 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+26-10-16_17:34:09 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Eliminación del esquema para clases
+26-10-16_17:34:09 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+26-10-16_17:34:09 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-api-jdo-5.0.3.jar
+26-10-16_17:34:09 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-core-5.0.3.jar
+26-10-16_17:34:09 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-rdbms-5.0.3.jar
+26-10-16_17:34:09 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/javax.jdo-3.2.0-m5.jar
+26-10-16_17:34:09 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/log4j-1.2.14.jar
+26-10-16_17:34:09 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/mysql-connector-java-5.1.40-bin.jar
+26-10-16_17:34:09 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin
+26-10-16_17:34:09 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/resources
+26-10-16_17:34:10 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+26-10-16_17:34:11 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+26-10-16_17:34:11 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Main.class
+26-10-16_17:34:11 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class
+26-10-16_17:34:11 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class
+26-10-16_17:34:11 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class
+26-10-16_17:34:13 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+26-10-16_17:34:23 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.0.3) para el API "JDO" utilisando el JRE "{2}"
+26-10-16_17:34:23 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class" con definicion enhanced
+26-10-16_17:34:23 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class" con definicion enhanced
+26-10-16_17:34:23 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class" con definicion enhanced
+26-10-16_17:34:23 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+26-10-16_17:34:24 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+26-10-16_17:34:24 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+26-10-16_17:34:24 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-api-jdo-5.0.3.jar
+26-10-16_17:34:24 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-core-5.0.3.jar
+26-10-16_17:34:24 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-rdbms-5.0.3.jar
+26-10-16_17:34:24 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/javax.jdo-3.2.0-m5.jar
+26-10-16_17:34:24 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/log4j-1.2.14.jar
+26-10-16_17:34:24 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/mysql-connector-java-5.1.40-bin.jar
+26-10-16_17:34:24 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin
+26-10-16_17:34:24 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/resources
+26-10-16_17:34:24 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+26-10-16_17:34:26 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+26-10-16_17:34:26 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Main.class
+26-10-16_17:34:26 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class
+26-10-16_17:34:26 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class
+26-10-16_17:34:26 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class
+26-10-16_17:34:35 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+26-10-16_17:34:36 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+26-10-16_17:35:40 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Eliminación del esquema para clases
+26-10-16_17:35:40 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+26-10-16_17:35:40 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-api-jdo-5.0.3.jar
+26-10-16_17:35:40 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-core-5.0.3.jar
+26-10-16_17:35:40 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-rdbms-5.0.3.jar
+26-10-16_17:35:40 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/javax.jdo-3.2.0-m5.jar
+26-10-16_17:35:40 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/log4j-1.2.14.jar
+26-10-16_17:35:40 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/mysql-connector-java-5.1.40-bin.jar
+26-10-16_17:35:40 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin
+26-10-16_17:35:40 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/resources
+26-10-16_17:35:40 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+26-10-16_17:35:42 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+26-10-16_17:35:42 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Main.class
+26-10-16_17:35:42 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class
+26-10-16_17:35:42 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class
+26-10-16_17:35:42 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class
+26-10-16_17:35:43 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+26-10-16_17:35:59 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.0.3) para el API "JDO" utilisando el JRE "{2}"
+26-10-16_17:35:59 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class" con definicion enhanced
+26-10-16_17:35:59 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class" con definicion enhanced
+26-10-16_17:35:59 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class" con definicion enhanced
+26-10-16_17:35:59 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+26-10-16_17:35:59 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+26-10-16_17:35:59 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+26-10-16_17:35:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-api-jdo-5.0.3.jar
+26-10-16_17:35:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-core-5.0.3.jar
+26-10-16_17:35:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-rdbms-5.0.3.jar
+26-10-16_17:35:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/javax.jdo-3.2.0-m5.jar
+26-10-16_17:35:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/log4j-1.2.14.jar
+26-10-16_17:35:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/mysql-connector-java-5.1.40-bin.jar
+26-10-16_17:35:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin
+26-10-16_17:35:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/resources
+26-10-16_17:36:00 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+26-10-16_17:36:02 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+26-10-16_17:36:02 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Main.class
+26-10-16_17:36:02 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class
+26-10-16_17:36:02 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class
+26-10-16_17:36:02 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class
+26-10-16_17:36:10 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+26-10-16_17:36:11 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+26-10-16_17:36:55 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Eliminación del esquema para clases
+26-10-16_17:36:55 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+26-10-16_17:36:55 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-api-jdo-5.0.3.jar
+26-10-16_17:36:55 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-core-5.0.3.jar
+26-10-16_17:36:55 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-rdbms-5.0.3.jar
+26-10-16_17:36:55 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/javax.jdo-3.2.0-m5.jar
+26-10-16_17:36:55 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/log4j-1.2.14.jar
+26-10-16_17:36:55 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/mysql-connector-java-5.1.40-bin.jar
+26-10-16_17:36:55 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin
+26-10-16_17:36:55 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/resources
+26-10-16_17:36:55 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+26-10-16_17:36:56 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+26-10-16_17:36:56 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Main.class
+26-10-16_17:36:56 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class
+26-10-16_17:36:56 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class
+26-10-16_17:36:56 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class
+26-10-16_17:36:58 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+26-10-16_17:37:04 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.0.3) para el API "JDO" utilisando el JRE "{2}"
+26-10-16_17:37:04 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class" con definicion enhanced
+26-10-16_17:37:04 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class" con definicion enhanced
+26-10-16_17:37:04 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class" con definicion enhanced
+26-10-16_17:37:04 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+26-10-16_17:37:04 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+26-10-16_17:37:04 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+26-10-16_17:37:04 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-api-jdo-5.0.3.jar
+26-10-16_17:37:04 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-core-5.0.3.jar
+26-10-16_17:37:04 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-rdbms-5.0.3.jar
+26-10-16_17:37:04 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/javax.jdo-3.2.0-m5.jar
+26-10-16_17:37:04 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/log4j-1.2.14.jar
+26-10-16_17:37:04 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/mysql-connector-java-5.1.40-bin.jar
+26-10-16_17:37:04 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin
+26-10-16_17:37:04 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/resources
+26-10-16_17:37:05 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+26-10-16_17:37:07 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+26-10-16_17:37:07 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Main.class
+26-10-16_17:37:07 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class
+26-10-16_17:37:07 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class
+26-10-16_17:37:07 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class
+26-10-16_17:37:16 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+26-10-16_17:37:17 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+26-10-16_17:40:06 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Eliminación del esquema para clases
+26-10-16_17:40:06 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+26-10-16_17:40:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-api-jdo-5.0.3.jar
+26-10-16_17:40:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-core-5.0.3.jar
+26-10-16_17:40:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-rdbms-5.0.3.jar
+26-10-16_17:40:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/javax.jdo-3.2.0-m5.jar
+26-10-16_17:40:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/log4j-1.2.14.jar
+26-10-16_17:40:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/mysql-connector-java-5.1.40-bin.jar
+26-10-16_17:40:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin
+26-10-16_17:40:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/resources
+26-10-16_17:40:06 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+26-10-16_17:40:07 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+26-10-16_17:40:07 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Main.class
+26-10-16_17:40:07 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class
+26-10-16_17:40:07 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class
+26-10-16_17:40:07 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class
+26-10-16_17:40:09 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+26-10-16_17:40:18 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.0.3) para el API "JDO" utilisando el JRE "{2}"
+26-10-16_17:40:18 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class" con definicion enhanced
+26-10-16_17:40:18 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class" con definicion enhanced
+26-10-16_17:40:18 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class" con definicion enhanced
+26-10-16_17:40:18 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+26-10-16_17:40:18 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+26-10-16_17:40:18 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+26-10-16_17:40:18 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-api-jdo-5.0.3.jar
+26-10-16_17:40:18 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-core-5.0.3.jar
+26-10-16_17:40:18 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-rdbms-5.0.3.jar
+26-10-16_17:40:18 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/javax.jdo-3.2.0-m5.jar
+26-10-16_17:40:18 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/log4j-1.2.14.jar
+26-10-16_17:40:18 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/mysql-connector-java-5.1.40-bin.jar
+26-10-16_17:40:18 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin
+26-10-16_17:40:18 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/resources
+26-10-16_17:40:19 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+26-10-16_17:40:21 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+26-10-16_17:40:21 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Main.class
+26-10-16_17:40:21 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class
+26-10-16_17:40:21 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class
+26-10-16_17:40:21 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class
+26-10-16_17:40:29 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+26-10-16_17:40:30 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+26-10-16_17:41:18 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Eliminación del esquema para clases
+26-10-16_17:41:18 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+26-10-16_17:41:18 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-api-jdo-5.0.3.jar
+26-10-16_17:41:18 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-core-5.0.3.jar
+26-10-16_17:41:18 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-rdbms-5.0.3.jar
+26-10-16_17:41:18 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/javax.jdo-3.2.0-m5.jar
+26-10-16_17:41:18 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/log4j-1.2.14.jar
+26-10-16_17:41:18 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/mysql-connector-java-5.1.40-bin.jar
+26-10-16_17:41:18 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin
+26-10-16_17:41:18 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/resources
+26-10-16_17:41:19 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+26-10-16_17:41:20 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+26-10-16_17:41:20 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Main.class
+26-10-16_17:41:20 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class
+26-10-16_17:41:20 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class
+26-10-16_17:41:20 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class
+26-10-16_17:41:22 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+26-10-16_17:41:28 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.0.3) para el API "JDO" utilisando el JRE "{2}"
+26-10-16_17:41:29 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class" con definicion enhanced
+26-10-16_17:41:29 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class" con definicion enhanced
+26-10-16_17:41:29 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class" con definicion enhanced
+26-10-16_17:41:29 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+26-10-16_17:41:29 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+26-10-16_17:41:29 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+26-10-16_17:41:29 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-api-jdo-5.0.3.jar
+26-10-16_17:41:29 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-core-5.0.3.jar
+26-10-16_17:41:29 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-rdbms-5.0.3.jar
+26-10-16_17:41:29 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/javax.jdo-3.2.0-m5.jar
+26-10-16_17:41:29 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/log4j-1.2.14.jar
+26-10-16_17:41:29 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/mysql-connector-java-5.1.40-bin.jar
+26-10-16_17:41:29 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin
+26-10-16_17:41:29 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/resources
+26-10-16_17:41:30 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+26-10-16_17:41:32 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+26-10-16_17:41:32 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Main.class
+26-10-16_17:41:32 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class
+26-10-16_17:41:32 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class
+26-10-16_17:41:32 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class
+26-10-16_17:41:40 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+26-10-16_17:41:41 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+27-12-16_17:43:52 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.0.3) para el API "JDO" utilisando el JRE "{2}"
+27-12-16_17:43:53 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class" con definicion enhanced
+27-12-16_17:43:53 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class" con definicion enhanced
+27-12-16_17:43:53 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class" con definicion enhanced
+27-12-16_17:43:53 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+27-12-16_17:43:53 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+27-12-16_17:43:53 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+27-12-16_17:43:53 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-api-jdo-5.0.3.jar
+27-12-16_17:43:53 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-core-5.0.3.jar
+27-12-16_17:43:53 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/datanucleus-rdbms-5.0.3.jar
+27-12-16_17:43:53 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/javax.jdo-3.2.0-m5.jar
+27-12-16_17:43:53 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/log4j-1.2.14.jar
+27-12-16_17:43:53 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/lib/mysql-connector-java-5.1.40-bin.jar
+27-12-16_17:43:53 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin
+27-12-16_17:43:53 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/resources
+27-12-16_17:43:54 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+27-12-16_17:43:59 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+27-12-16_17:43:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Main.class
+27-12-16_17:43:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Passenger.class
+27-12-16_17:43:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/Reservation.class
+27-12-16_17:43:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class
+27-12-16_17:44:00 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+27-12-16_17:44:01 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla

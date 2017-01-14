@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="datanucleus-core-5.0.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/datanucleus-core-5.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/datanucleus-rdbms-5.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.jdo-3.2.0-m5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4j-1.2.14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mysql-connector-java-5.1.40-bin.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
