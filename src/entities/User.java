@@ -1,12 +1,9 @@
-package es.deusto.ingenieria.sd.jdo.inventory;
+package entities;
 
  import javax.jdo.annotations.Join;
 import javax.jdo.annotations.PersistenceCapable;
 import java.util.ArrayList;
 import java.util.List;
-import javax.jdo.annotations.Persistent;
-import javax.jdo.annotations.IdGeneratorStrategy;
-import javax.jdo.annotations.PrimaryKey;
 
 
 @PersistenceCapable
@@ -25,11 +22,11 @@ public class User {
 	}
 	
 
-	void addReservation(Reservation r){
+	public void addReservation(Reservation r){
         reserveList.add(r);
     }
 	
-	void getReservation(int a){
+	public void getReservation(int a){
         reserveList.get(a);
     }
 

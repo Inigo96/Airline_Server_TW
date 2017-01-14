@@ -1,11 +1,9 @@
-package es.deusto.ingenieria.sd.jdo.inventory;
+package entities;
 
+import javax.jdo.annotations.Join;
+import javax.jdo.annotations.PersistenceCapable;
 import java.util.ArrayList;
-import javax.jdo.annotations.IdGeneratorStrategy;
-import javax.jdo.annotations.PrimaryKey;
 import java.util.List;
-import javax.jdo.annotations.*;
-import javax.jdo.annotations.Persistent;
 @PersistenceCapable
 public class Reservation {
 
@@ -17,11 +15,11 @@ public class Reservation {
 		return "Reservation [flightList=" + flightList + "]";
 	}
 
-	void addFlight(Flight f){
+	public void addFlight(Flight f){
     	flightList.add(f);
     }
 
-    void getFlight(int b){
+    public void getFlight(int b){
     	flightList.get(b);
     }
 

@@ -1,4 +1,4 @@
-package es.deusto.ingenieria.sd.jdo.inventory;
+package entities;
 
 import javax.jdo.annotations.Join;
 import javax.jdo.annotations.PersistenceCapable;
