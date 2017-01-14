@@ -15,8 +15,6 @@ public class Main {
 	
     public static void main(String[] args) {
     	
-        
-    	
 		 EasyBookingDao easyBookingDao=new EasyBookingDaoImplement(null);
 //CREATE DATABASE
 		 	
