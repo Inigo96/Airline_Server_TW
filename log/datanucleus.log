@@ -560,3 +560,65 @@ org.datanucleus.exceptions.NucleusException: No hay clases !
 27-12-16_17:43:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/PLANEJDO2/bin/es/deusto/ingenieria/sd/jdo/inventory/User.class
 27-12-16_17:44:00 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
 27-12-16_17:44:01 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+14-01-17_17:22:47 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.0.3) para el API "JDO" utilisando el JRE "{2}"
+14-01-17_17:22:47 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class" con definicion enhanced
+14-01-17_17:22:47 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Reservation.class" con definicion enhanced
+14-01-17_17:22:47 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/User.class" con definicion enhanced
+14-01-17_17:22:47 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+14-01-17_17:22:48 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+14-01-17_17:22:48 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+14-01-17_17:22:48 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/datanucleus-api-jdo-5.0.3.jar
+14-01-17_17:22:48 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/datanucleus-core-5.0.3.jar
+14-01-17_17:22:48 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/datanucleus-rdbms-5.0.3.jar
+14-01-17_17:22:48 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/javax.jdo-3.2.0-m5.jar
+14-01-17_17:22:48 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/log4j-1.2.14.jar
+14-01-17_17:22:48 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/mysql-connector-java-5.1.40-bin.jar
+14-01-17_17:22:48 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin
+14-01-17_17:22:48 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/resources
+14-01-17_17:22:49 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+14-01-17_17:22:51 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+14-01-17_17:22:51 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDao.class
+14-01-17_17:22:51 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDaoImplement.class
+14-01-17_17:22:51 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Main.class
+14-01-17_17:22:51 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Server_Manager_Main.class
+14-01-17_17:22:51 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class
+14-01-17_17:22:51 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Reservation.class
+14-01-17_17:22:51 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/User.class
+14-01-17_17:22:51 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/remote/IReservationService.class
+14-01-17_17:22:51 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/remote/ReservationService_Façade.class
+14-01-17_17:22:52 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+14-01-17_17:22:53 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+14-01-17_17:22:56 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+14-01-17_17:22:57 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+14-01-17_17:22:57 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+14-01-17_17:22:58 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+14-01-17_17:22:58 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+14-01-17_17:22:58 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+14-01-17_17:22:59 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+14-01-17_17:22:59 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+14-01-17_17:23:00 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+14-01-17_17:23:00 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+14-01-17_17:23:01 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+14-01-17_17:23:01 (main) INFO  [DataNucleus.JDO] - Exception thrown
+Invalid operator "=". Did you mean to use "=="?
+org.datanucleus.store.query.QueryCompilerSyntaxException: Invalid operator "=". Did you mean to use "=="?
+	at org.datanucleus.query.compiler.JDOQLParser.processRelationalExpression(JDOQLParser.java:490)
+	at org.datanucleus.query.compiler.JDOQLParser.processAndExpression(JDOQLParser.java:439)
+	at org.datanucleus.query.compiler.JDOQLParser.processExclusiveOrExpression(JDOQLParser.java:425)
+	at org.datanucleus.query.compiler.JDOQLParser.processInclusiveOrExpression(JDOQLParser.java:411)
+	at org.datanucleus.query.compiler.JDOQLParser.processConditionalAndExpression(JDOQLParser.java:397)
+	at org.datanucleus.query.compiler.JDOQLParser.processConditionalOrExpression(JDOQLParser.java:378)
+	at org.datanucleus.query.compiler.JDOQLParser.processExpression(JDOQLParser.java:367)
+	at org.datanucleus.query.compiler.JDOQLParser.parse(JDOQLParser.java:90)
+	at org.datanucleus.query.compiler.JavaQueryCompiler.compileFilter(JavaQueryCompiler.java:549)
+	at org.datanucleus.query.compiler.JDOQLCompiler.compile(JDOQLCompiler.java:104)
+	at org.datanucleus.store.query.AbstractJDOQLQuery.compileGeneric(AbstractJDOQLQuery.java:374)
+	at org.datanucleus.store.query.AbstractJDOQLQuery.compileInternal(AbstractJDOQLQuery.java:419)
+	at org.datanucleus.store.rdbms.query.JDOQLQuery.compileInternal(JDOQLQuery.java:246)
+	at org.datanucleus.store.query.Query.executeQuery(Query.java:1883)
+	at org.datanucleus.store.query.Query.executeWithArray(Query.java:1811)
+	at org.datanucleus.store.query.Query.execute(Query.java:1793)
+	at org.datanucleus.api.jdo.JDOQuery.executeInternal(JDOQuery.java:424)
+	at org.datanucleus.api.jdo.JDOQuery.execute(JDOQuery.java:255)
+	at EasyBookingDaoImplement.searchUser(Unknown Source)
+	at Main.main(Unknown Source)

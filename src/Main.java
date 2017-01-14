@@ -1,4 +1,4 @@
-package es.deusto.ingenieria.sd.jdo.inventory;
+import entities.*;
 
 import java.util.*;
 
