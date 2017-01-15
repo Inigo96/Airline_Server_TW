@@ -12,4 +12,6 @@ public class AirFrance implements IGateway {
     public Flight[] searchFlight(String departure, String arrival, GregorianCalendar date) {
         return new Flight[0];
     }
+
+
 }

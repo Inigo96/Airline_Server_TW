@@ -28,8 +28,7 @@ private GregorianCalendar date;
 	
 	@Override
 	public String toString(){
-	    return "D: " + departureA + ", A: " + arrivalA + ", on " + date.toString();
-	    
+		return "D&&:" + departureA + ",A&&:" + arrivalA + ",ON&&:" + date.toString();
 	  }
 
 
