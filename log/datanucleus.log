@@ -577,8 +577,8 @@ org.datanucleus.exceptions.NucleusException: No hay clases !
 14-01-17_17:22:48 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/resources
 14-01-17_17:22:49 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
 14-01-17_17:22:51 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
-14-01-17_17:22:51 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDao.class
-14-01-17_17:22:51 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDaoImplement.class
+14-01-17_17:22:51 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDao.class
+14-01-17_17:22:51 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDaoImplement.class
 14-01-17_17:22:51 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Main.class
 14-01-17_17:22:51 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Server_Manager_Main.class
 14-01-17_17:22:51 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class
@@ -620,7 +620,7 @@ org.datanucleus.store.query.QueryCompilerSyntaxException: Invalid operator "=". 
 	at org.datanucleus.store.query.Query.execute(Query.java:1793)
 	at org.datanucleus.api.jdo.JDOQuery.executeInternal(JDOQuery.java:424)
 	at org.datanucleus.api.jdo.JDOQuery.execute(JDOQuery.java:255)
-	at EasyBookingDaoImplement.searchUser(Unknown Source)
+	at db.EasyBookingDaoImplement.searchUser(Unknown Source)
 	at Main.main(Unknown Source)
 14-01-17_17:59:02 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.0.3) para el API "JDO" utilisando el JRE "{2}"
 14-01-17_17:59:02 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class" con definicion enhanced
@@ -639,8 +639,8 @@ org.datanucleus.store.query.QueryCompilerSyntaxException: Invalid operator "=". 
 14-01-17_17:59:03 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/resources
 14-01-17_17:59:04 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
 14-01-17_17:59:06 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
-14-01-17_17:59:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDao.class
-14-01-17_17:59:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDaoImplement.class
+14-01-17_17:59:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDao.class
+14-01-17_17:59:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDaoImplement.class
 14-01-17_17:59:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Main.class
 14-01-17_17:59:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Server_Manager_Main.class
 14-01-17_17:59:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class
@@ -683,7 +683,7 @@ org.datanucleus.exceptions.NucleusUserException: Variable 'user1' is unbound and
 	at org.datanucleus.store.query.Query.execute(Query.java:1793)
 	at org.datanucleus.api.jdo.JDOQuery.executeInternal(JDOQuery.java:424)
 	at org.datanucleus.api.jdo.JDOQuery.execute(JDOQuery.java:255)
-	at EasyBookingDaoImplement.searchUser(Unknown Source)
+	at db.EasyBookingDaoImplement.searchUser(Unknown Source)
 	at Main.main(Unknown Source)
 14-01-17_18:30:56 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.0.3) para el API "JDO" utilisando el JRE "{2}"
 14-01-17_18:30:56 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class" con definicion enhanced
@@ -702,8 +702,8 @@ org.datanucleus.exceptions.NucleusUserException: Variable 'user1' is unbound and
 14-01-17_18:30:57 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/resources
 14-01-17_18:30:57 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
 14-01-17_18:31:00 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
-14-01-17_18:31:00 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDao.class
-14-01-17_18:31:00 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDaoImplement.class
+14-01-17_18:31:00 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDao.class
+14-01-17_18:31:00 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDaoImplement.class
 14-01-17_18:31:00 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Main.class
 14-01-17_18:31:00 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Server_Manager_Main.class
 14-01-17_18:31:00 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class
@@ -744,8 +744,8 @@ org.datanucleus.exceptions.NucleusUserException: Variable 'user1' is unbound and
 15-01-17_11:37:38 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/resources
 15-01-17_11:37:38 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
 15-01-17_11:37:43 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
-15-01-17_11:37:43 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDao.class
-15-01-17_11:37:43 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDaoImplement.class
+15-01-17_11:37:43 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDao.class
+15-01-17_11:37:43 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDaoImplement.class
 15-01-17_11:37:43 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Main.class
 15-01-17_11:37:43 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Server_Manager_Main.class
 15-01-17_11:37:43 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class
@@ -781,8 +781,8 @@ org.datanucleus.exceptions.NucleusUserException: Variable 'user1' is unbound and
 15-01-17_12:25:13 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/resources
 15-01-17_12:25:13 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
 15-01-17_12:25:15 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
-15-01-17_12:25:15 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDao.class
-15-01-17_12:25:15 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDaoImplement.class
+15-01-17_12:25:15 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDao.class
+15-01-17_12:25:15 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDaoImplement.class
 15-01-17_12:25:15 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Main.class
 15-01-17_12:25:15 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Server_Manager_Main.class
 15-01-17_12:25:15 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class
@@ -811,8 +811,8 @@ org.datanucleus.exceptions.NucleusUserException: Variable 'user1' is unbound and
 15-01-17_12:25:58 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/resources
 15-01-17_12:25:59 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
 15-01-17_12:26:02 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
-15-01-17_12:26:02 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDao.class
-15-01-17_12:26:02 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDaoImplement.class
+15-01-17_12:26:02 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDao.class
+15-01-17_12:26:02 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDaoImplement.class
 15-01-17_12:26:02 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Main.class
 15-01-17_12:26:02 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Server_Manager_Main.class
 15-01-17_12:26:02 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class
@@ -850,8 +850,8 @@ org.datanucleus.exceptions.NucleusUserException: Variable 'user1' is unbound and
 15-01-17_12:34:15 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/resources
 15-01-17_12:34:15 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
 15-01-17_12:34:17 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
-15-01-17_12:34:17 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDao.class
-15-01-17_12:34:17 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDaoImplement.class
+15-01-17_12:34:17 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDao.class
+15-01-17_12:34:17 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDaoImplement.class
 15-01-17_12:34:17 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Main.class
 15-01-17_12:34:17 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Server_Manager_Main.class
 15-01-17_12:34:17 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class
@@ -882,8 +882,8 @@ org.datanucleus.exceptions.NucleusUserException: Variable 'user1' is unbound and
 15-01-17_12:34:32 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/resources
 15-01-17_12:34:33 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
 15-01-17_12:34:36 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
-15-01-17_12:34:36 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDao.class
-15-01-17_12:34:36 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDaoImplement.class
+15-01-17_12:34:36 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDao.class
+15-01-17_12:34:36 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDaoImplement.class
 15-01-17_12:34:36 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Main.class
 15-01-17_12:34:36 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Server_Manager_Main.class
 15-01-17_12:34:36 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class
@@ -921,8 +921,8 @@ org.datanucleus.exceptions.NucleusUserException: Variable 'user1' is unbound and
 15-01-17_12:35:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/resources
 15-01-17_12:36:00 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
 15-01-17_12:36:02 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
-15-01-17_12:36:02 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDao.class
-15-01-17_12:36:02 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDaoImplement.class
+15-01-17_12:36:02 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDao.class
+15-01-17_12:36:02 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDaoImplement.class
 15-01-17_12:36:02 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Main.class
 15-01-17_12:36:02 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Server_Manager_Main.class
 15-01-17_12:36:02 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class
@@ -953,8 +953,8 @@ org.datanucleus.exceptions.NucleusUserException: Variable 'user1' is unbound and
 15-01-17_12:41:24 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/resources
 15-01-17_12:41:25 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
 15-01-17_12:41:27 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
-15-01-17_12:41:27 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDao.class
-15-01-17_12:41:27 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDaoImplement.class
+15-01-17_12:41:27 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDao.class
+15-01-17_12:41:27 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDaoImplement.class
 15-01-17_12:41:27 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Main.class
 15-01-17_12:41:27 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Server_Manager_Main.class
 15-01-17_12:41:27 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class
@@ -992,8 +992,8 @@ org.datanucleus.exceptions.NucleusUserException: Variable 'user1' is unbound and
 15-01-17_12:52:04 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/resources
 15-01-17_12:52:04 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
 15-01-17_12:52:06 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
-15-01-17_12:52:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDao.class
-15-01-17_12:52:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDaoImplement.class
+15-01-17_12:52:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDao.class
+15-01-17_12:52:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDaoImplement.class
 15-01-17_12:52:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Main.class
 15-01-17_12:52:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Server_Manager_Main.class
 15-01-17_12:52:06 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class
@@ -1024,8 +1024,8 @@ org.datanucleus.exceptions.NucleusUserException: Variable 'user1' is unbound and
 15-01-17_12:52:25 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/resources
 15-01-17_12:52:25 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
 15-01-17_12:52:28 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
-15-01-17_12:52:28 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDao.class
-15-01-17_12:52:28 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDaoImplement.class
+15-01-17_12:52:28 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDao.class
+15-01-17_12:52:28 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDaoImplement.class
 15-01-17_12:52:28 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Main.class
 15-01-17_12:52:28 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Server_Manager_Main.class
 15-01-17_12:52:28 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class
@@ -1068,8 +1068,8 @@ org.datanucleus.exceptions.NucleusUserException: Variable 'user1' is unbound and
 15-01-17_12:55:29 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/resources
 15-01-17_12:55:29 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
 15-01-17_12:55:32 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
-15-01-17_12:55:32 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDao.class
-15-01-17_12:55:32 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDaoImplement.class
+15-01-17_12:55:32 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDao.class
+15-01-17_12:55:32 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDaoImplement.class
 15-01-17_12:55:32 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Main.class
 15-01-17_12:55:32 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Server_Manager_Main.class
 15-01-17_12:55:32 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class
@@ -1107,8 +1107,8 @@ org.datanucleus.exceptions.NucleusUserException: Variable 'user1' is unbound and
 15-01-17_12:56:23 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/resources
 15-01-17_12:56:23 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
 15-01-17_12:56:25 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
-15-01-17_12:56:25 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDao.class
-15-01-17_12:56:25 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDaoImplement.class
+15-01-17_12:56:25 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDao.class
+15-01-17_12:56:25 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDaoImplement.class
 15-01-17_12:56:25 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Main.class
 15-01-17_12:56:25 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Server_Manager_Main.class
 15-01-17_12:56:25 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class
@@ -1139,8 +1139,8 @@ org.datanucleus.exceptions.NucleusUserException: Variable 'user1' is unbound and
 15-01-17_12:56:34 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/resources
 15-01-17_12:56:35 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
 15-01-17_12:56:38 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
-15-01-17_12:56:38 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDao.class
-15-01-17_12:56:38 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDaoImplement.class
+15-01-17_12:56:38 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDao.class
+15-01-17_12:56:38 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDaoImplement.class
 15-01-17_12:56:38 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Main.class
 15-01-17_12:56:38 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Server_Manager_Main.class
 15-01-17_12:56:38 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class
@@ -1178,8 +1178,8 @@ org.datanucleus.exceptions.NucleusUserException: Variable 'user1' is unbound and
 15-01-17_13:08:10 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/resources
 15-01-17_13:08:11 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
 15-01-17_13:08:13 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
-15-01-17_13:08:13 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDao.class
-15-01-17_13:08:13 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDaoImplement.class
+15-01-17_13:08:13 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDao.class
+15-01-17_13:08:13 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDaoImplement.class
 15-01-17_13:08:13 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Main.class
 15-01-17_13:08:13 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Server_Manager_Main.class
 15-01-17_13:08:13 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class
@@ -1210,8 +1210,8 @@ org.datanucleus.exceptions.NucleusUserException: Variable 'user1' is unbound and
 15-01-17_13:08:22 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/resources
 15-01-17_13:08:23 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
 15-01-17_13:08:26 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
-15-01-17_13:08:26 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDao.class
-15-01-17_13:08:26 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDaoImplement.class
+15-01-17_13:08:26 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDao.class
+15-01-17_13:08:26 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDaoImplement.class
 15-01-17_13:08:26 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Main.class
 15-01-17_13:08:26 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Server_Manager_Main.class
 15-01-17_13:08:26 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class
@@ -1248,8 +1248,8 @@ org.datanucleus.exceptions.NucleusUserException: Variable 'user1' is unbound and
 15-01-17_13:14:34 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/resources
 15-01-17_13:14:34 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
 15-01-17_13:14:36 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
-15-01-17_13:14:36 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDao.class
-15-01-17_13:14:36 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDaoImplement.class
+15-01-17_13:14:36 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDao.class
+15-01-17_13:14:36 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDaoImplement.class
 15-01-17_13:14:36 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Main.class
 15-01-17_13:14:36 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Server_Manager_Main.class
 15-01-17_13:14:36 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class
@@ -1280,8 +1280,8 @@ org.datanucleus.exceptions.NucleusUserException: Variable 'user1' is unbound and
 15-01-17_13:14:45 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/resources
 15-01-17_13:14:46 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
 15-01-17_13:14:48 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
-15-01-17_13:14:48 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDao.class
-15-01-17_13:14:48 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDaoImplement.class
+15-01-17_13:14:48 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDao.class
+15-01-17_13:14:48 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDaoImplement.class
 15-01-17_13:14:48 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Main.class
 15-01-17_13:14:48 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Server_Manager_Main.class
 15-01-17_13:14:48 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class
@@ -1319,8 +1319,8 @@ org.datanucleus.exceptions.NucleusUserException: Variable 'user1' is unbound and
 15-01-17_13:17:48 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/resources
 15-01-17_13:17:48 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
 15-01-17_13:17:50 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
-15-01-17_13:17:50 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDao.class
-15-01-17_13:17:50 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDaoImplement.class
+15-01-17_13:17:50 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDao.class
+15-01-17_13:17:50 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDaoImplement.class
 15-01-17_13:17:50 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Main.class
 15-01-17_13:17:50 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Server_Manager_Main.class
 15-01-17_13:17:50 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class
@@ -1351,8 +1351,8 @@ org.datanucleus.exceptions.NucleusUserException: Variable 'user1' is unbound and
 15-01-17_13:18:00 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/resources
 15-01-17_13:18:00 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
 15-01-17_13:18:03 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
-15-01-17_13:18:03 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDao.class
-15-01-17_13:18:03 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDaoImplement.class
+15-01-17_13:18:03 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDao.class
+15-01-17_13:18:03 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDaoImplement.class
 15-01-17_13:18:03 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Main.class
 15-01-17_13:18:03 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Server_Manager_Main.class
 15-01-17_13:18:03 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class
@@ -1389,8 +1389,8 @@ org.datanucleus.exceptions.NucleusUserException: Variable 'user1' is unbound and
 15-01-17_13:19:41 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/resources
 15-01-17_13:19:42 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
 15-01-17_13:19:44 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
-15-01-17_13:19:44 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDao.class
-15-01-17_13:19:44 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDaoImplement.class
+15-01-17_13:19:44 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDao.class
+15-01-17_13:19:44 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDaoImplement.class
 15-01-17_13:19:44 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Main.class
 15-01-17_13:19:44 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Server_Manager_Main.class
 15-01-17_13:19:44 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class
@@ -1421,8 +1421,8 @@ org.datanucleus.exceptions.NucleusUserException: Variable 'user1' is unbound and
 15-01-17_13:19:53 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/resources
 15-01-17_13:19:54 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
 15-01-17_13:19:56 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
-15-01-17_13:19:56 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDao.class
-15-01-17_13:19:56 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDaoImplement.class
+15-01-17_13:19:56 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDao.class
+15-01-17_13:19:56 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDaoImplement.class
 15-01-17_13:19:56 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Main.class
 15-01-17_13:19:56 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Server_Manager_Main.class
 15-01-17_13:19:56 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class
@@ -1459,8 +1459,8 @@ org.datanucleus.exceptions.NucleusUserException: Variable 'user1' is unbound and
 15-01-17_13:23:17 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/resources
 15-01-17_13:23:17 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
 15-01-17_13:23:19 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
-15-01-17_13:23:19 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDao.class
-15-01-17_13:23:19 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDaoImplement.class
+15-01-17_13:23:19 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDao.class
+15-01-17_13:23:19 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDaoImplement.class
 15-01-17_13:23:19 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Main.class
 15-01-17_13:23:19 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Server_Manager_Main.class
 15-01-17_13:23:19 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class
@@ -1491,8 +1491,8 @@ org.datanucleus.exceptions.NucleusUserException: Variable 'user1' is unbound and
 15-01-17_13:23:28 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/resources
 15-01-17_13:23:29 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
 15-01-17_13:23:32 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
-15-01-17_13:23:32 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDao.class
-15-01-17_13:23:32 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/EasyBookingDaoImplement.class
+15-01-17_13:23:32 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDao.class
+15-01-17_13:23:32 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db.EasyBookingDaoImplement.class
 15-01-17_13:23:32 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Main.class
 15-01-17_13:23:32 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Server_Manager_Main.class
 15-01-17_13:23:32 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class

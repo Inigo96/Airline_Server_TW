@@ -22,8 +22,6 @@ public class AirFranceGateway implements IGateway, RMI_IFlights{
 
     private static AirFranceGateway ourInstance = new AirFranceGateway();
 
-
-
     public static AirFranceGateway getInstance() {
         return ourInstance;
     }

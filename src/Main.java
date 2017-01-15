@@ -1,15 +1,8 @@
+import db.EasyBookingDao;
+import db.EasyBookingDaoImplement;
 import entities.*;
 
 import java.util.*;
-
-import javax.jdo.Extent;
-import javax.jdo.JDOHelper;
-import javax.jdo.PersistenceManager;
-import javax.jdo.PersistenceManagerFactory;
-import javax.jdo.Transaction;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 public class Main {
 	
