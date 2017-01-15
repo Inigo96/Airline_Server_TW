@@ -17,9 +17,7 @@ public class FlightManager {
     IGateway[] arrayGateway;
 
     public FlightManager(IGateway[] arrayGateway) {
-
         this.arrayGateway = arrayGateway;
-
     }
 
     public Flight[] searchFlight(String departure, String arrival, GregorianCalendar date){
