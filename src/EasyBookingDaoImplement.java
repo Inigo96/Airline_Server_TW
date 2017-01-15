@@ -116,7 +116,7 @@ PersistenceManagerFactory pmf;
         return extentF;
     }
 
-    public  List<User> searchUser(String username){
+    public  User searchUser(String username){
     	List<User> users;
         
     	pmf = JDOHelper.getPersistenceManagerFactory("datanucleus.properties");
@@ -143,7 +143,7 @@ PersistenceManagerFactory pmf;
 
      pm.close();
   }
- return users;
+ return users.get(0);
     }
     	
     	

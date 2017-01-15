@@ -14,7 +14,7 @@ public interface EasyBookingDao {
     
     //Show only one instance
    
-    public List<User> searchUser(String username);
+    public User searchUser(String username);
     public List<Flight> searchFlight(String departure,String arrival,GregorianCalendar date);
     
     //Store one instance on the DB
