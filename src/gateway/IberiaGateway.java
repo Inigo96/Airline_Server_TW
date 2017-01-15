@@ -11,18 +11,26 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 
 /**
- * Created by inigo on 14/01/17.
+ * Created by inigo on 15/01/17.
  */
-public class Iberia implements IGateway{
+public class IberiaGateway implements IGateway{
+
     private String IP;
     private int port;
 
-    public Iberia (String ip, int port){
-        super();
-        this.IP=ip;
-        this.port=port;
+    public void initialize(String IP, int port){
+        this.IP = IP;
+        this.port = port;
     }
 
+    private static IberiaGateway ourInstance = new IberiaGateway();
+
+    public static IberiaGateway getInstance() {
+        return ourInstance;
+    }
+
+    private IberiaGateway() {
+    }
 
     @Override
     public Flight[] searchFlight(String departure, String arrival, GregorianCalendar date){
@@ -48,6 +56,7 @@ public class Iberia implements IGateway{
         }
         return new Flight[0];
     }
+
     private Flight[] transformToArray(String text){
 
         Flight[] res;
@@ -70,5 +79,4 @@ public class Iberia implements IGateway{
         }
         return res;
     }
-
 }
