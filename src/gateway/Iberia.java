@@ -7,6 +7,7 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
 import java.net.UnknownHostException;
+import java.util.Date;
 import java.util.GregorianCalendar;
 
 /**
@@ -17,16 +18,19 @@ public class Iberia implements IGateway{
     private int port;
 
     public Iberia (String ip, int port){
+        super();
         this.IP=ip;
         this.port=port;
     }
 
+
     @Override
-    public Flight[] searchFlight(String departure, String arrival, GregorianCalendar date) {
-        try (Socket tcpSocket = new Socket(this.IP, this.port);
-             //Streams to send and receive information are created from the Socket
-             DataInputStream in = new DataInputStream(tcpSocket.getInputStream());
-             DataOutputStream out = new DataOutputStream(tcpSocket.getOutputStream())){
+    public Flight[] searchFlight(String departure, String arrival, GregorianCalendar date){
+        try{
+            Socket tcpSocket = new Socket(this.IP, this.port);
+            //Streams to send and receive information are created from the Socket
+            DataInputStream in = new DataInputStream(tcpSocket.getInputStream());
+            DataOutputStream out = new DataOutputStream(tcpSocket.getOutputStream());
 
             //Send request (a Srting) to the server
             String text;
@@ -44,6 +48,27 @@ public class Iberia implements IGateway{
         }
         return new Flight[0];
     }
+    private Flight[] transformToArray(String text){
+
+        Flight[] res;
+        String[] temp;
+        String[] atribs;
+    /* delimiter */
+        String delimiterF = "$$$$$$$$$#";
+        String delimiterA = "%&&&%";
+    /* given string will be split by the argument delimiter provided. */
+        temp = text.split(delimiterF);
+        res = new Flight[temp.length];
+    /* print substrings */
+        for(int i =0; i < temp.length ; i++){
+            atribs = temp[i].split(delimiterA);
+            GregorianCalendar r= new GregorianCalendar();
+            Date e = new Date();
+            e.setTime(Long.valueOf(atribs[2]).longValue());
+            r.setTime(e);
+            res[i]=new Flight(atribs[0],atribs[1],r);
+        }
+        return res;
+    }
 
 }
-
