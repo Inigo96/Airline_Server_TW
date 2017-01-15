@@ -17,6 +17,7 @@ public class UserManager {
                 return a.searchUser(username);
             } else {
                 System.out.println("Wrong password ");
+                return null;
             }
         } else if (UserGateway.getInstance().login(username, password)) {
             User u = new User(username, password);
