@@ -23,8 +23,8 @@ public class Reservation {
     	flightList.add(f);
     }
 
-    public void getFlight(){
-    	flightList.get(0);
+    public Flight getFlight(){
+    	return flightList.get(0);
     }
 
 

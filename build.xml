@@ -105,6 +105,15 @@
 	<target name="run" depends="createschema">
         <java classname="Main" classpathref="classpath" fork="true">
         	<jvmarg value="-Dlog4j.configuration=log4j.properties"/>
+            <arg value="${server.IP}"/>
+            <arg value="${server.port}"/>
+            <arg value="${server.Name}"/>
+            <arg value="${iberia.IP}"/>
+            <arg value="${iberia.port}"/>
+            <arg value="${airFrance.IP}"/>
+            <arg value="${airFrance.port}"/>
+            <arg value="${airFrance.Name}"/>
+
 		</java>
     </target>
 </project>

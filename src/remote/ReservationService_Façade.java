@@ -10,34 +10,42 @@ import managers.UserManager;
 import java.rmi.Naming;
 import java.rmi.RemoteException;
 import java.util.Date;
+import java.util.GregorianCalendar;
 
 /**
  * Created by inigo on 30/12/16.
  */
 public class ReservationService_Façade implements IReservationService {
 
-    public ReservationService_Façade(FlightManager flightManager, ReservationManager reservationManager, UserManager userManager){
+    private FlightManager flightManager;
+    private ReservationManager reservationManager;
+    private UserManager userManager;
 
+
+    public ReservationService_Façade(FlightManager flightManager, ReservationManager reservationManager, UserManager userManager){
+        this.flightManager=flightManager;
+        this.reservationManager=reservationManager;
+        this.userManager=userManager;
     }
 
     @Override
     public boolean createReservation(Flight f, User u) throws RemoteException {
-        return false;
+        return reservationManager.createReservation(u,f);
     }
 
     @Override
-    public Flight[] searchFlight(String departure, String arrival, Date date) throws RemoteException {
-        return new Flight[0];
+    public Flight[] searchFlight(String departure, String arrival, GregorianCalendar date) throws RemoteException {
+        return flightManager.searchFlight(departure,arrival,date);
     }
 
     @Override
     public Reservation[] getReservations(User u) throws RemoteException {
-        return new Reservation[0];
+        return (Reservation[])reservationManager.getReservations(u).toArray();
     }
 
     @Override
     public User login(String email, String password) throws RemoteException {
-        return null;
+        return this.userManager.login(email,password);
     }
 
     public static void run_Server(String ip, String port, String serviceName, FlightManager flightManager, ReservationManager reservationManager, UserManager userManager){
