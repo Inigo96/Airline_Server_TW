@@ -1,8 +1,9 @@
 package gateway;
 
 import entities.Flight;
-import gateway.query.FlightsQuery;
-import gateway.query.RMI_IFlights;
+import airFrance.AirFrance_Flight;
+import airFrance.FlightsQuery;
+import airFrance.RMI_IFlights;
 
 import java.net.MalformedURLException;
 import java.rmi.Naming;
@@ -34,7 +35,12 @@ public class AirFranceGateway implements IGateway{
     @Override
     public Flight[] searchFlight(String departure, String arrival, GregorianCalendar date) {
         try {
-            return this.serviceLocator.getService().searchFlightRMI(new FlightsQuery(departure, arrival, date));
+            AirFrance_Flight[] airFrance_flights= this.serviceLocator.getService().searchFlightRMI(new FlightsQuery(departure, arrival, date));
+            Flight[] flights = new Flight[airFrance_flights.length];
+            for(int a=0;a<airFrance_flights.length;a++) {
+                flights[a]=new Flight(airFrance_flights[a].getDepartureA(), airFrance_flights[a].getArrivalA(), airFrance_flights[a].getDate());
+            }
+            return flights;
         } catch (RemoteException e) {
             e.printStackTrace();
             return new Flight[0];
