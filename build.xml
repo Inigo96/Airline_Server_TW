@@ -7,7 +7,7 @@
     <property name="source.dir" location="src"/>
     <property name="build.dir" location="bin"/>
 	<property name="lib.dir" location="lib"/>
-    <property name="classpath" location="bin"/>
+
     <property name="server.port" value="1099"/>
     <property name="server.IP" value="127.0.0.1"/>
     <property name="server.Name" value="AirFrance"/>
@@ -40,7 +40,7 @@
     <target name="build" description="Builds the project">
         <delete dir="${build.dir}"/>
         <mkdir dir="${build.dir}"/>
-        <javac srcdir="${source.dir}" destdir="${build.dir}" classpath="${classpath}" deprecation="true" fork="true" includeAntRuntime="no"/>
+        <javac srcdir="${source.dir}" destdir="${build.dir}" classpathref="classpath" deprecation="true" fork="true" includeAntRuntime="no"/>
     </target>
 
     <!-- TARGET : compile -->
