@@ -98,7 +98,6 @@ PersistenceManagerFactory pmf;
             extentF = pm.getExtent(Flight.class);
             int cont = 0;
             for (Flight f : extentF) {
-                if(f.equals(null))
             	System.out.println((cont++) + " - "+ f.getArrivalA() + " - " + f.getDepartureA()+ " - " + f.getDate());
             }  
 
