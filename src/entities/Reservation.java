@@ -7,6 +7,10 @@ import java.util.List;
 @PersistenceCapable
 public class Reservation {
 
+
+	public Reservation(){
+
+	}
 	@Join
     private List<Flight> flightList=new ArrayList<>();
 

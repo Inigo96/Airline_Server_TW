@@ -26,8 +26,8 @@ public class User {
         reserveList.add(r);
     }
 	
-	public void getReservation(int a){
-        reserveList.get(a);
+	public List<Reservation> getReservation(){
+        return reserveList;
     }
 
 
