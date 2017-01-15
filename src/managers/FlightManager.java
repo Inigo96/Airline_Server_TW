@@ -1,6 +1,5 @@
 package managers;
 
-import com.sun.tools.javac.util.ArrayUtils;
 import entities.Flight;
 import gateway.*;
 
@@ -52,7 +51,6 @@ public class FlightManager {
         for(int j=0;j<b.length; j++){
             fusion[j+a.length]=b[j];
         }
-
 
         return fusion;
     }
