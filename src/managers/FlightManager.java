@@ -45,10 +45,16 @@ public class FlightManager {
         return temp2;
     }
     private Flight[] fusionArrays(Flight[] a, Flight[] b){
-        Flight[] temp = Stream.concat(Arrays.stream(a), Arrays.stream(b)).toArray(Flight[]::new);
+        Flight[] fusion= new Flight[a.length+b.length];
+        for(int i=0;i<a.length;i++){
+            fusion[i]=a[i];
+        }
+        for(int j=0;j<b.length; j++){
+            fusion[j+a.length]=b[j];
+        }
 
 
-        return temp;
+        return fusion;
     }
 
 };
