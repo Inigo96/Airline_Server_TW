@@ -19,6 +19,7 @@ public class ReservationManager {
         u.addReservation(r);
 
         a.storeReservation(r);
+        return true;
     }
 
     public List<Reservation> getReservations(User u) {

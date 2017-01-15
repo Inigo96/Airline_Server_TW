@@ -13,8 +13,8 @@ import java.util.*;
 @PersistenceCapable
 public class Flight { 
 
-private	String departureA=null;
-private String arrivalA=null;
+private	String departureA;
+private String arrivalA;
 private GregorianCalendar date;
 	
 	

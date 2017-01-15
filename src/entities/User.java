@@ -9,16 +9,17 @@ import java.util.List;
 @PersistenceCapable
 public class User {
 
-	private String username=null;
+	private String username;
 
-	private String password=null;
+	private String password;
 	@Join
-	private List<Reservation> reserveList=new ArrayList<>();
+	private List<Reservation> reserveList;
 	
 	public User(String username, String password) {
+
 		this.username = username;
 		this.password = password;
-
+		reserveList=new ArrayList<>();
 	}
 	
 
