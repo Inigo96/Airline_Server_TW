@@ -14,6 +14,8 @@ PersistenceManagerFactory pmf;
     {
         this.pmf = pmf;
     }
+
+    public EasyBookingDaoImplement(){}
     
    
     

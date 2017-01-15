@@ -1,5 +1,8 @@
 package gateway;
 
+import db.EasyBookingDaoImplement;
+import entities.User;
+
 /**
  * Created by pablocabezali on 15/1/17.
  */
@@ -20,7 +23,17 @@ public class UserGateway {
     }
 
     public boolean login(String username, String password){
-        if()
+
+        boolean successful=false;
+        if(username.contains("@gamil.")){
+            successful=true;
+
+
+        }else{
+            System.out.println("Try another username with @gmail.");
+        }
+
+        return successful;
 
     }
 }
