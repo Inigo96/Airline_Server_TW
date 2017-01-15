@@ -16,7 +16,7 @@ public class Main {
     public static void main(String[] args) {
     	
 		 EasyBookingDao easyBookingDao=new EasyBookingDaoImplement(null);
-//CREATE DATABASE
+		 	//CREATE DATABASE
 		 	
 	        try {  
 	        	
@@ -49,22 +49,16 @@ public class Main {
                 	u2.addReservation(r3);
                 	u2.addReservation(r4);
  
-                //Reservation 1  flights       
-                easyBookingDao.storeReservation(r1);    
-                easyBookingDao.storeFlight(f1);
-                               
-                //Reservation 2  flights          
-                easyBookingDao.storeReservation(r2);    
-                easyBookingDao.storeFlight(f2);
-                
-                //Reservation 3 flights       
-                easyBookingDao.storeReservation(r3);    
+                //flights       
+                easyBookingDao.storeFlight(f1);    
+                easyBookingDao.storeFlight(f2);    
                 easyBookingDao.storeFlight(f3);
-                               
-                //Reservation 4 flights          
-                easyBookingDao.storeReservation(r4);    
                 easyBookingDao.storeFlight(f4);
-           
+                //reservations
+                easyBookingDao.storeReservation(r1);    
+                easyBookingDao.storeReservation(r2);    
+                easyBookingDao.storeReservation(r3);    
+                easyBookingDao.storeReservation(r4);    
                 
                 //User 1            
                 easyBookingDao.storeUser(u1);
@@ -72,11 +66,11 @@ public class Main {
                 
                 //User 2 
                 easyBookingDao.storeUser(u2);
-//Show all flights 
+                //Show all flights 
                 easyBookingDao.getAllFlights();      
                 
-//Show 1 user results
-              easyBookingDao.searchUser("user1");
+                //Show 1 user results
+                easyBookingDao.searchUser("user1");
                 
 	        } catch (Exception e) {
 	            e.printStackTrace();
