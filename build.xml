@@ -10,7 +10,16 @@
 
     <property name="server.port" value="1099"/>
     <property name="server.IP" value="127.0.0.1"/>
-    <property name="server.Name" value="AirFrance"/>
+    <property name="server.Name" value="Server"/>
+
+    <property name="iberia.port" value="1100"/>
+    <property name="iberia.IP" value="127.0.0.1"/>
+
+    <property name="airFrance.port" value="1101"/>
+    <property name="airFrance.IP" value="127.0.0.1"/>
+    <property name="airFrance.Name" value="AirFrance"/>
+
+
     <property name="export.file" value="Server.jar"/>
 	<property name="resources.dir" location="resources"/>
     <property name="policy.file" location="security/java.policy"/>

@@ -20,10 +20,13 @@ private GregorianCalendar date;
 	
 	
 	public Flight(String departureA, String arrivalA, GregorianCalendar date) {
-
 		this.departureA = departureA;
 		this.arrivalA = arrivalA;
 		this.date = date;
+	}
+
+	public Flight(){
+
 	}
 	
 	@Override

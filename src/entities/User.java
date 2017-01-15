@@ -21,7 +21,7 @@ public class User {
 		this.password = password;
 		reserveList=new ArrayList<>();
 	}
-	
+	public User(){};
 
 	public void addReservation(Reservation r){
         reserveList.add(r);
