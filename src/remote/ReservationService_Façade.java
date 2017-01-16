@@ -9,30 +9,24 @@ import managers.UserManager;
 
 import java.rmi.Naming;
 import java.rmi.RemoteException;
-import java.util.ArrayList;
-import java.util.Date;
+import java.rmi.server.UnicastRemoteObject;
 import java.util.GregorianCalendar;
 
 /**
  * Created by inigo on 30/12/16.
  */
-public class ReservationService_Façade implements IReservationService {
+public class ReservationService_Façade extends UnicastRemoteObject implements IReservationService {
 
     private FlightManager flightManager;
     private ReservationManager reservationManager;
     private UserManager userManager;
 
 
-    public ReservationService_Façade(FlightManager flightManager, ReservationManager reservationManager, UserManager userManager){
+    public ReservationService_Façade(FlightManager flightManager, ReservationManager reservationManager, UserManager userManager) throws RemoteException {
+        super();
         this.flightManager=flightManager;
         this.reservationManager=reservationManager;
         this.userManager=userManager;
-    }
-
-    public ArrayList<Object> array2ArrayList(Object[] a){
-        ArrayList<Object> ar= new ArrayList<>();
-        for (Object j:a) ar.add(j);
-        return ar;
     }
 
     @Override
@@ -57,9 +51,9 @@ public class ReservationService_Façade implements IReservationService {
 
     public static void run_Server(String ip, String port, String serviceName, FlightManager flightManager, ReservationManager reservationManager, UserManager userManager){
 
-        if (System.getSecurityManager() == null) {
-            System.setSecurityManager(new SecurityManager());
-        }
+//        if (System.getSecurityManager() == null) {
+//            System.setSecurityManager(new SecurityManager());
+//        }
 
         String name = "//" + ip + ":" + port + "/" + serviceName;
 

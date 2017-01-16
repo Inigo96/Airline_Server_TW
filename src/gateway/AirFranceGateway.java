@@ -8,6 +8,7 @@ import airFrance.RMI_IFlights;
 import java.net.MalformedURLException;
 import java.rmi.Naming;
 import java.rmi.NotBoundException;
+import java.rmi.Remote;
 import java.rmi.RemoteException;
 import java.util.GregorianCalendar;
 
@@ -51,6 +52,10 @@ public class AirFranceGateway implements IGateway{
         private RMI_IFlights pf;
 
         public void setService(String ip, String port, String serviceName) {
+
+            if (System.getSecurityManager() == null) {
+                System.setSecurityManager(new SecurityManager());
+            }
             String url = "//" + ip + ":" + port + "/" + serviceName;
             System.out.println("Client looking for service : //"+ip+":"+port+"/"+serviceName);
             try {

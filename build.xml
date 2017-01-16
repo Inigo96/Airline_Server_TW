@@ -2,11 +2,13 @@
 <project name="Airline_Server_TW" default="run" basedir=".">
     <!-- project directories -->
     <property name="src.dir" location="src"/>
-    <property name="dist.dir" location="dist"/>
     <property name="bin.dir" location="bin"/>
+    <property name="lib.dir" location="lib"/>
+    <property name="dist.dir" location="dist"/>
+
     <property name="source.dir" location="src"/>
     <property name="build.dir" location="bin"/>
-	<property name="lib.dir" location="lib"/>
+
 
     <property name="server.port" value="1099"/>
     <property name="server.IP" value="127.0.0.1"/>
@@ -15,7 +17,7 @@
     <property name="iberia.port" value="1100"/>
     <property name="iberia.IP" value="127.0.0.1"/>
 
-    <property name="airFrance.port" value="1101"/>
+    <property name="airFrance.port" value="1099"/>
     <property name="airFrance.IP" value="127.0.0.1"/>
     <property name="airFrance.Name" value="AirFrance"/>
 
@@ -102,9 +104,11 @@
     </target>
 	
     <!-- TARGET : Run -->	
-	<target name="run" depends="createschema">
+	<target name="run" depends="build, createschema">
         <java classname="Main" classpathref="classpath" fork="true">
         	<jvmarg value="-Dlog4j.configuration=log4j.properties"/>
+            <jvmarg value="-Djava.rmi.server.codebase=file:${build.dir}/"/>
+            <jvmarg value="-Djava.security.policy=${policy.file}"/>
             <arg value="${server.IP}"/>
             <arg value="${server.port}"/>
             <arg value="${server.Name}"/>
