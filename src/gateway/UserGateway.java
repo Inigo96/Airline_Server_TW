@@ -25,7 +25,7 @@ public class UserGateway {
     public boolean login(String username, String password){
 
         boolean successful=false;
-        if(username.contains("@gamil.")){
+        if(username.contains("@gmail.")){
             successful=true;
 
 

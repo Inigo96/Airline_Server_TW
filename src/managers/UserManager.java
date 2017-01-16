@@ -8,10 +8,10 @@ import gateway.UserGateway;
  * Created by pablocabezali on 15/1/17.
  */
 public class UserManager {
-
+    private EasyBookingDaoImplement a = new EasyBookingDaoImplement(null);
     public User login(String username, String password) {
 
-        EasyBookingDaoImplement a = new EasyBookingDaoImplement();
+
         if (a.searchUser(username) != null) {
             if (a.searchUser(username).getPassword().equals(password)) {
                 return a.searchUser(username);

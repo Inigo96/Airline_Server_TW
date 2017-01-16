@@ -723,3 +723,231 @@ org.datanucleus.exceptions.NucleusException: No hay clases !
 16-01-17_18:43:29 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/remote/IReservationService.class
 16-01-17_18:43:29 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/remote/ReservationService_Façade.class
 16-01-17_18:43:30 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+16-01-17_19:07:36 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.0.3) para el API "JDO" utilisando el JRE "{2}"
+16-01-17_19:07:36 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class" con definicion enhanced
+16-01-17_19:07:36 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Reservation.class" con definicion enhanced
+16-01-17_19:07:36 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/User.class" con definicion enhanced
+16-01-17_19:07:36 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+16-01-17_19:07:37 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+16-01-17_19:07:37 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+16-01-17_19:07:37 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/AirFrance.jar
+16-01-17_19:07:37 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/datanucleus-api-jdo-5.0.3.jar
+16-01-17_19:07:37 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/datanucleus-core-5.0.3.jar
+16-01-17_19:07:37 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/datanucleus-rdbms-5.0.3.jar
+16-01-17_19:07:37 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/javax.jdo-3.2.0-m5.jar
+16-01-17_19:07:37 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/log4j-1.2.14.jar
+16-01-17_19:07:37 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/mysql-connector-java-5.1.40-bin.jar
+16-01-17_19:07:37 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin
+16-01-17_19:07:37 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/resources
+16-01-17_19:07:37 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+16-01-17_19:07:39 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+16-01-17_19:07:39 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Main.class
+16-01-17_19:07:39 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/MainCarazoPruebaBD.class
+16-01-17_19:07:39 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db/EasyBookingDao.class
+16-01-17_19:07:39 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db/EasyBookingDaoImplement.class
+16-01-17_19:07:39 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class
+16-01-17_19:07:39 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Reservation.class
+16-01-17_19:07:39 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/User.class
+16-01-17_19:07:39 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/gateway/AirFranceGateway$RMIServiceLocator.class
+16-01-17_19:07:39 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/gateway/AirFranceGateway.class
+16-01-17_19:07:39 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/gateway/IGateway.class
+16-01-17_19:07:39 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/gateway/IberiaGateway.class
+16-01-17_19:07:39 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/gateway/UserGateway.class
+16-01-17_19:07:39 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/managers/FlightManager.class
+16-01-17_19:07:39 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/managers/ReservationManager.class
+16-01-17_19:07:39 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/managers/UserManager.class
+16-01-17_19:07:39 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/remote/IReservationService.class
+16-01-17_19:07:39 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/remote/ReservationService_Façade.class
+16-01-17_19:07:40 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+16-01-17_19:14:28 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.0.3) para el API "JDO" utilisando el JRE "{2}"
+16-01-17_19:14:28 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class" con definicion enhanced
+16-01-17_19:14:28 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Reservation.class" con definicion enhanced
+16-01-17_19:14:28 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/User.class" con definicion enhanced
+16-01-17_19:14:28 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+16-01-17_19:14:29 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+16-01-17_19:14:29 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+16-01-17_19:14:29 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/AirFrance.jar
+16-01-17_19:14:29 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/datanucleus-api-jdo-5.0.3.jar
+16-01-17_19:14:29 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/datanucleus-core-5.0.3.jar
+16-01-17_19:14:29 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/datanucleus-rdbms-5.0.3.jar
+16-01-17_19:14:29 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/javax.jdo-3.2.0-m5.jar
+16-01-17_19:14:29 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/log4j-1.2.14.jar
+16-01-17_19:14:29 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/mysql-connector-java-5.1.40-bin.jar
+16-01-17_19:14:29 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin
+16-01-17_19:14:29 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/resources
+16-01-17_19:14:29 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+16-01-17_19:14:31 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+16-01-17_19:14:31 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Main.class
+16-01-17_19:14:31 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/MainCarazoPruebaBD.class
+16-01-17_19:14:31 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db/EasyBookingDao.class
+16-01-17_19:14:31 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db/EasyBookingDaoImplement.class
+16-01-17_19:14:31 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class
+16-01-17_19:14:31 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Reservation.class
+16-01-17_19:14:31 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/User.class
+16-01-17_19:14:31 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/gateway/AirFranceGateway$RMIServiceLocator.class
+16-01-17_19:14:31 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/gateway/AirFranceGateway.class
+16-01-17_19:14:31 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/gateway/IGateway.class
+16-01-17_19:14:31 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/gateway/IberiaGateway.class
+16-01-17_19:14:31 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/gateway/UserGateway.class
+16-01-17_19:14:31 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/managers/FlightManager.class
+16-01-17_19:14:31 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/managers/ReservationManager.class
+16-01-17_19:14:31 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/managers/UserManager.class
+16-01-17_19:14:31 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/remote/IReservationService.class
+16-01-17_19:14:31 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/remote/ReservationService_Façade.class
+16-01-17_19:14:32 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+16-01-17_19:19:31 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.0.3) para el API "JDO" utilisando el JRE "{2}"
+16-01-17_19:19:32 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class" con definicion enhanced
+16-01-17_19:19:32 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Reservation.class" con definicion enhanced
+16-01-17_19:19:32 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/User.class" con definicion enhanced
+16-01-17_19:19:32 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+16-01-17_19:19:32 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+16-01-17_19:19:32 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+16-01-17_19:19:32 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/AirFrance.jar
+16-01-17_19:19:32 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/datanucleus-api-jdo-5.0.3.jar
+16-01-17_19:19:32 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/datanucleus-core-5.0.3.jar
+16-01-17_19:19:32 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/datanucleus-rdbms-5.0.3.jar
+16-01-17_19:19:32 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/javax.jdo-3.2.0-m5.jar
+16-01-17_19:19:32 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/log4j-1.2.14.jar
+16-01-17_19:19:32 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/mysql-connector-java-5.1.40-bin.jar
+16-01-17_19:19:32 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin
+16-01-17_19:19:32 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/resources
+16-01-17_19:19:33 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+16-01-17_19:19:34 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+16-01-17_19:19:34 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Main.class
+16-01-17_19:19:34 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/MainCarazoPruebaBD.class
+16-01-17_19:19:34 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db/EasyBookingDao.class
+16-01-17_19:19:34 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db/EasyBookingDaoImplement.class
+16-01-17_19:19:34 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class
+16-01-17_19:19:34 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Reservation.class
+16-01-17_19:19:34 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/User.class
+16-01-17_19:19:34 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/gateway/AirFranceGateway$RMIServiceLocator.class
+16-01-17_19:19:34 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/gateway/AirFranceGateway.class
+16-01-17_19:19:34 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/gateway/IGateway.class
+16-01-17_19:19:34 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/gateway/IberiaGateway.class
+16-01-17_19:19:34 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/gateway/UserGateway.class
+16-01-17_19:19:34 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/managers/FlightManager.class
+16-01-17_19:19:34 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/managers/ReservationManager.class
+16-01-17_19:19:34 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/managers/UserManager.class
+16-01-17_19:19:34 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/remote/IReservationService.class
+16-01-17_19:19:34 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/remote/ReservationService_Façade.class
+16-01-17_19:19:35 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+16-01-17_19:30:22 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.0.3) para el API "JDO" utilisando el JRE "{2}"
+16-01-17_19:30:22 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class" con definicion enhanced
+16-01-17_19:30:22 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Reservation.class" con definicion enhanced
+16-01-17_19:30:22 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/User.class" con definicion enhanced
+16-01-17_19:30:22 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+16-01-17_19:30:23 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+16-01-17_19:30:23 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+16-01-17_19:30:23 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/AirFrance.jar
+16-01-17_19:30:23 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/datanucleus-api-jdo-5.0.3.jar
+16-01-17_19:30:23 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/datanucleus-core-5.0.3.jar
+16-01-17_19:30:23 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/datanucleus-rdbms-5.0.3.jar
+16-01-17_19:30:23 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/javax.jdo-3.2.0-m5.jar
+16-01-17_19:30:23 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/log4j-1.2.14.jar
+16-01-17_19:30:23 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/mysql-connector-java-5.1.40-bin.jar
+16-01-17_19:30:23 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin
+16-01-17_19:30:23 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/resources
+16-01-17_19:30:23 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+16-01-17_19:30:25 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+16-01-17_19:30:25 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Main.class
+16-01-17_19:30:25 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/MainCarazoPruebaBD.class
+16-01-17_19:30:25 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db/EasyBookingDao.class
+16-01-17_19:30:25 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db/EasyBookingDaoImplement.class
+16-01-17_19:30:25 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class
+16-01-17_19:30:25 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Reservation.class
+16-01-17_19:30:25 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/User.class
+16-01-17_19:30:25 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/gateway/AirFranceGateway$RMIServiceLocator.class
+16-01-17_19:30:25 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/gateway/AirFranceGateway.class
+16-01-17_19:30:25 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/gateway/IGateway.class
+16-01-17_19:30:25 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/gateway/IberiaGateway.class
+16-01-17_19:30:25 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/gateway/UserGateway.class
+16-01-17_19:30:25 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/managers/FlightManager.class
+16-01-17_19:30:25 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/managers/ReservationManager.class
+16-01-17_19:30:25 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/managers/UserManager.class
+16-01-17_19:30:25 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/remote/IReservationService.class
+16-01-17_19:30:25 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/remote/ReservationService_Façade.class
+16-01-17_19:30:26 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+16-01-17_19:33:13 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.0.3) para el API "JDO" utilisando el JRE "{2}"
+16-01-17_19:33:14 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class" con definicion enhanced
+16-01-17_19:33:14 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Reservation.class" con definicion enhanced
+16-01-17_19:33:14 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/User.class" con definicion enhanced
+16-01-17_19:33:14 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+16-01-17_19:33:14 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+16-01-17_19:33:14 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+16-01-17_19:33:14 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/AirFrance.jar
+16-01-17_19:33:14 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/datanucleus-api-jdo-5.0.3.jar
+16-01-17_19:33:14 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/datanucleus-core-5.0.3.jar
+16-01-17_19:33:14 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/datanucleus-rdbms-5.0.3.jar
+16-01-17_19:33:14 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/javax.jdo-3.2.0-m5.jar
+16-01-17_19:33:14 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/log4j-1.2.14.jar
+16-01-17_19:33:14 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/mysql-connector-java-5.1.40-bin.jar
+16-01-17_19:33:14 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin
+16-01-17_19:33:14 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/resources
+16-01-17_19:33:14 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+16-01-17_19:33:18 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+16-01-17_19:33:18 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Main.class
+16-01-17_19:33:18 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/MainCarazoPruebaBD.class
+16-01-17_19:33:18 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db/EasyBookingDao.class
+16-01-17_19:33:18 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db/EasyBookingDaoImplement.class
+16-01-17_19:33:18 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class
+16-01-17_19:33:18 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Reservation.class
+16-01-17_19:33:18 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/User.class
+16-01-17_19:33:18 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/gateway/AirFranceGateway$RMIServiceLocator.class
+16-01-17_19:33:18 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/gateway/AirFranceGateway.class
+16-01-17_19:33:18 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/gateway/IGateway.class
+16-01-17_19:33:18 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/gateway/IberiaGateway.class
+16-01-17_19:33:18 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/gateway/UserGateway.class
+16-01-17_19:33:18 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/managers/FlightManager.class
+16-01-17_19:33:18 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/managers/ReservationManager.class
+16-01-17_19:33:18 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/managers/UserManager.class
+16-01-17_19:33:18 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/remote/IReservationService.class
+16-01-17_19:33:18 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/remote/ReservationService_Façade.class
+16-01-17_19:33:18 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+16-01-17_19:33:55 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.0.3) para el API "JDO" utilisando el JRE "{2}"
+16-01-17_19:33:56 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class" con definicion enhanced
+16-01-17_19:33:56 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Reservation.class" con definicion enhanced
+16-01-17_19:33:56 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/User.class" con definicion enhanced
+16-01-17_19:33:56 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+16-01-17_19:33:56 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+16-01-17_19:33:56 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+16-01-17_19:33:56 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/AirFrance.jar
+16-01-17_19:33:56 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/datanucleus-api-jdo-5.0.3.jar
+16-01-17_19:33:56 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/datanucleus-core-5.0.3.jar
+16-01-17_19:33:56 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/datanucleus-rdbms-5.0.3.jar
+16-01-17_19:33:56 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/javax.jdo-3.2.0-m5.jar
+16-01-17_19:33:56 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/log4j-1.2.14.jar
+16-01-17_19:33:56 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/lib/mysql-connector-java-5.1.40-bin.jar
+16-01-17_19:33:56 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin
+16-01-17_19:33:56 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/resources
+16-01-17_19:33:57 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+16-01-17_19:33:59 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+16-01-17_19:33:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/Main.class
+16-01-17_19:33:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/MainCarazoPruebaBD.class
+16-01-17_19:33:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db/EasyBookingDao.class
+16-01-17_19:33:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/db/EasyBookingDaoImplement.class
+16-01-17_19:33:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Flight.class
+16-01-17_19:33:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/Reservation.class
+16-01-17_19:33:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/entities/User.class
+16-01-17_19:33:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/gateway/AirFranceGateway$RMIServiceLocator.class
+16-01-17_19:33:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/gateway/AirFranceGateway.class
+16-01-17_19:33:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/gateway/IGateway.class
+16-01-17_19:33:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/gateway/IberiaGateway.class
+16-01-17_19:33:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/gateway/UserGateway.class
+16-01-17_19:33:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/managers/FlightManager.class
+16-01-17_19:33:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/managers/ReservationManager.class
+16-01-17_19:33:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/managers/UserManager.class
+16-01-17_19:33:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/remote/IReservationService.class
+16-01-17_19:33:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /home/inigo/workspace/Java/Internet_Communication/Airline_Server_TW/bin/remote/ReservationService_Façade.class
+16-01-17_19:33:59 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+16-01-17_19:34:00 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+16-01-17_19:34:02 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+16-01-17_19:34:02 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+16-01-17_19:34:02 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+16-01-17_19:34:02 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+16-01-17_19:34:03 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+16-01-17_19:34:03 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+16-01-17_19:34:03 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+16-01-17_19:34:03 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+16-01-17_19:34:04 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+16-01-17_19:34:04 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+16-01-17_19:34:04 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla

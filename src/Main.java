@@ -40,6 +40,8 @@ public class Main {
         //UserManager
         UserManager userManager = new UserManager();
 
+        //Initialize bd
+
         //Inicializar Server
         ReservationService_Façade.run_Server(serverIP, serverPort, serverServiceName, flightManager, reservationManager, userManager);
 

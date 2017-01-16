@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <project name="Airline_Server_TW" default="run" basedir=".">
     <!-- project directories -->
+
     <property name="src.dir" location="src"/>
     <property name="bin.dir" location="bin"/>
     <property name="lib.dir" location="lib"/>
+    <property name="resources.dir" location="resources"/>
+
     <property name="dist.dir" location="dist"/>
 
     <property name="source.dir" location="src"/>
     <property name="build.dir" location="bin"/>
-
 
     <property name="server.port" value="1099"/>
     <property name="server.IP" value="127.0.0.1"/>
@@ -21,9 +23,8 @@
     <property name="airFrance.IP" value="127.0.0.1"/>
     <property name="airFrance.Name" value="AirFrance"/>
 
-
     <property name="export.file" value="Server.jar"/>
-	<property name="resources.dir" location="resources"/>
+
     <property name="policy.file" location="security/java.policy"/>
 
     <!-- Classpath -->
@@ -40,7 +41,7 @@
         <delete includeEmptyDirs="true" quiet="true">
             <fileset dir="${bin.dir}" includes="**/*.*"/>
         </delete>
-		<delete dir="${bin.dir}"/>
+        <delete dir="${bin.dir}"/>
     </target>
 
     <!-- TARGET : prepare -->
@@ -48,11 +49,11 @@
         <mkdir dir="${bin.dir}"/>
     </target>
 
-    <target name="build" description="Builds the project">
-        <delete dir="${build.dir}"/>
-        <mkdir dir="${build.dir}"/>
-        <javac srcdir="${source.dir}" destdir="${build.dir}" classpathref="classpath" deprecation="true" fork="true" includeAntRuntime="no"/>
-    </target>
+    <!--<target name="build" description="Builds the project">-->
+        <!--<delete dir="${build.dir}"/>-->
+        <!--<mkdir dir="${build.dir}"/>-->
+        <!--<javac srcdir="${source.dir}" destdir="${build.dir}" classpathref="classpath" deprecation="true" fork="true" includeAntRuntime="no"/>-->
+    <!--</target>-->
 
     <!-- TARGET : compile -->
     <target name="compile" depends="clean, prepare">
@@ -61,7 +62,7 @@
         </javac>
     </target>
 
-    <target name="export" depends="build" description="Export the project into a .jar file">
+    <target name="export" depends="compile" description="Export the project into a .jar file">
         <delete dir="${dist.dir}"/>
         <mkdir dir="${dist.dir}"/>
         <jar destfile="${dist.dir}/${export.file}" basedir="${build.dir}" excludes="**/Server.class"/>
@@ -69,14 +70,14 @@
 
     <!-- TARGET : enhance -->
     <target name="enhance" depends="compile">
-    	<taskdef name="enhancer" classpathref="classpath" classname="org.datanucleus.enhancer.EnhancerTask" />
-    	
-   		<enhancer classpathref="classpath" failonerror="true">
+        <taskdef name="enhancer" classpathref="classpath" classname="org.datanucleus.enhancer.EnhancerTask" />
+
+        <enhancer classpathref="classpath" failonerror="true">
             <sysproperty key="log4j.configuration" value="file:${resources.dir}/log4j.properties"/>
             <fileset dir="${bin.dir}">
                 <include name="**/*.class"/>
             </fileset>
-   		</enhancer>
+        </enhancer>
     </target>
 	
     <!-- TARGET : SchemaTool "create" -->
@@ -95,18 +96,18 @@
     <target name="deleteschema">
         <taskdef name="schematool" classpathref="classpath" classname="org.datanucleus.store.schema.SchemaToolTask"/>
 
-    	<schematool mode="delete" classpathref="classpath" failonerror="true" props="datanucleus.properties">
-    		<sysproperty key="log4j.configuration" value="file:${resources.dir}/log4j.properties"/>
-        	<fileset dir="${bin.dir}">
+        <schematool mode="delete" classpathref="classpath" failonerror="true" props="datanucleus.properties">
+            <sysproperty key="log4j.configuration" value="file:${resources.dir}/log4j.properties"/>
+            <fileset dir="${bin.dir}">
                 <include name="**/*.class"/>
             </fileset>
         </schematool>
     </target>
 	
     <!-- TARGET : Run -->	
-	<target name="run" depends="build, createschema">
-        <java classname="Main" classpathref="classpath" fork="true">
-        	<jvmarg value="-Dlog4j.configuration=log4j.properties"/>
+	<target name="run" depends=" createschema">
+        <java classname="MainCarazoPruebaBD" classpathref="classpath" fork="true">
+            <jvmarg value="-Dlog4j.configuration=log4j.properties"/>
             <jvmarg value="-Djava.rmi.server.codebase=file:${build.dir}/"/>
             <jvmarg value="-Djava.security.policy=${policy.file}"/>
             <arg value="${server.IP}"/>
@@ -117,7 +118,6 @@
             <arg value="${airFrance.IP}"/>
             <arg value="${airFrance.port}"/>
             <arg value="${airFrance.Name}"/>
-
 		</java>
     </target>
 </project>

@@ -11,7 +11,7 @@ import java.util.List;
  * Created by pablocabezali on 15/1/17.
  */
 public class ReservationManager {
-    EasyBookingDaoImplement a = new EasyBookingDaoImplement();
+    private EasyBookingDaoImplement a = new EasyBookingDaoImplement(null);
 
     public boolean createReservation(User u, Flight f) {
         Reservation r = new Reservation();
