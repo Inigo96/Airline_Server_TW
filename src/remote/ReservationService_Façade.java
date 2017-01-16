@@ -9,6 +9,7 @@ import managers.UserManager;
 
 import java.rmi.Naming;
 import java.rmi.RemoteException;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
@@ -26,6 +27,12 @@ public class ReservationService_Façade implements IReservationService {
         this.flightManager=flightManager;
         this.reservationManager=reservationManager;
         this.userManager=userManager;
+    }
+
+    public ArrayList<Object> array2ArrayList(Object[] a){
+        ArrayList<Object> ar= new ArrayList<>();
+        for (Object j:a) ar.add(j);
+        return ar;
     }
 
     @Override
