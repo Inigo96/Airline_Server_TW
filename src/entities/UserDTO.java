@@ -16,19 +16,19 @@ public class UserDTO implements Serializable{
     private String password;
     //	@Persistent(defaultFetchGroup="true", mappedBy="user", dependentElement = "true")
 
-    private List<Reservation> reserveList;
+    private List<ReservationDTO> reserveList;
 
-    public UserDTO(String username, String password, List<Reservation> lista) {
+    public UserDTO(String username, String password, List<ReservationDTO> lista) {
         this.username = username;
         this.password = password;
         reserveList=lista;
     }
 
-    public List<Reservation> getReservation(){
+    public List<ReservationDTO> getReservation(){
         return reserveList;
     }
 
-    public Reservation getLastReservation() {return reserveList.get(reserveList.size()-1);}
+    public ReservationDTO getLastReservation() {return reserveList.get(reserveList.size()-1);}
 
     public String getUsername() {
         return username;

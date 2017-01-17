@@ -22,11 +22,10 @@ public class UserGateway {
     }
 
     public boolean login(String username, String password){
-
+        System.out.println("Chequeo esta en GOOGLE");
         boolean successful=false;
         if(username.contains("@gmail.")){
             successful=true;
-
 
         }else{
             System.out.println("Try another username with @gmail.");

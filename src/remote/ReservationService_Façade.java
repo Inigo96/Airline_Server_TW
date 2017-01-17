@@ -38,7 +38,6 @@ public class ReservationService_Façade extends UnicastRemoteObject implements I
 
     @Override
     public boolean createReservation(FlightDTO f, UserDTO u) throws RemoteException {
-
         return reservationManager.createReservation(aU.DesAssembleUser(u),aF.DesAssembleFlight(f));
     }
 

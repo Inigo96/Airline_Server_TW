@@ -7,9 +7,8 @@ import javax.jdo.annotations.PrimaryKey;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
-import org.datanucleus.enhancement.*;
 
-@PersistenceCapable
+@PersistenceCapable(detachable = "true")
 public class User implements Serializable{
 public User(){
 
@@ -20,6 +19,7 @@ public User(){
 
 	private String password;
 
+	@Persistent(defaultFetchGroup = "true")
 	@Join
 	private List<Reservation> reserveList;
 	

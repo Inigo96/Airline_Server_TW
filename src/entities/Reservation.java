@@ -7,7 +7,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 import org.datanucleus.enhancement.*;
-@PersistenceCapable
+@PersistenceCapable(detachable = "true")
 public class Reservation implements Serializable{
 
 
@@ -20,6 +20,7 @@ public class Reservation implements Serializable{
 		flightList=new ArrayList<>();
 	}
 
+	@Persistent(defaultFetchGroup = "true")
 	@Join
     private List<Flight> flightList;
 

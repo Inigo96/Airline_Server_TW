@@ -5,22 +5,22 @@ import java.util.ArrayList;
 import java.util.List;
 public class ReservationDTO implements Serializable{
 
-    public ReservationDTO(List<Flight> e){
+    public ReservationDTO(List<FlightDTO> e){
         flightList=e;
     }
 
-    private List<Flight> flightList;
+    private List<FlightDTO> flightList;
 
     @Override
     public String toString() {
         return "Reservation [flightList=" + flightList + "]";
     }
 
-    public Flight getFlight(){
+    public FlightDTO getFlight(){
         return flightList.get(0);
     }
 
-    public List<Flight> getFlights(){
+    public List<FlightDTO> getFlights(){
         return flightList;
     }
 

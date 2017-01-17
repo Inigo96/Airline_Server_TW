@@ -2,19 +2,13 @@ package db;
 
 import entities.Reservation;
 import entities.User;
-import org.datanucleus.enhancement.*;
+
 import javax.jdo.*;
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.rmi.server.UnicastRemoteObject;
-import java.util.List;
 
 /**
- * Created by inigo on 16/01/17.
+ * Created by inigo on 17/01/17.
  */
-public class MySQL {
+public class MySQL implements IMySQL {
 
     PersistenceManagerFactory pmf;
 
@@ -22,7 +16,9 @@ public class MySQL {
         pmf = JDOHelper.getPersistenceManagerFactory("datanucleus.properties");
     }
 
-    public synchronized void storeUser(User u){
+    @Override
+    public void storeUser(User u) {
+        System.out.println("Store User "+u.getUsername());
         PersistenceManager pm = pmf.getPersistenceManager();
         Transaction tx = pm.currentTransaction();
         try {
@@ -40,7 +36,9 @@ public class MySQL {
         }
     }
 
-    public synchronized void deleteUser(User u){
+    @Override
+    public void deleteUser(User u) {
+        System.out.println("Delete User "+u.getUsername());
         PersistenceManager pm = pmf.getPersistenceManager();
         Transaction tx = pm.currentTransaction();
 
@@ -56,6 +54,7 @@ public class MySQL {
                     System.out.println("ENTRE!!!!!!!!!!!!!!!!!");
                     pm.deletePersistent(p);
                 }
+                pm.flush();
             }
             tx.commit();
         } catch (Exception ex) {
@@ -68,7 +67,9 @@ public class MySQL {
         }
     }
 
-    public synchronized void addReservation(User u, Reservation r){
+    @Override
+    public void addReservation(User u, Reservation r) {
+        System.out.println("Add reservation "+u.getReservation());
         PersistenceManager pm = pmf.getPersistenceManager();
         Transaction tx = pm.currentTransaction();
 
@@ -96,20 +97,20 @@ public class MySQL {
         }
     }
 
-    public synchronized User getUser(String email){
-        System.out.println("Get User from db");
+    @Override
+    public User getUser(String email) {
+        System.out.println("Get User from db "+email);
         PersistenceManager pm = pmf.getPersistenceManager();
         Transaction tx = pm.currentTransaction();
-//        pm.getFetchPlan().setMaxFetchDepth(3);
-        User u = new User();
+        pm.getFetchPlan().setMaxFetchDepth(3);
+        User u = null;
         try {
             tx.begin();
             Extent<User> extentP = pm.getExtent(User.class);
 
             for (User p : extentP) {
                 System.out.println(p.getReservation().size());
-                if(p.getUsername().equals(email))
-                {
+                if (p.getUsername().equals(email)) {
 //                    System.out.println("p.getUsername() = " + p.getUsername());
 //                    ByteArrayOutputStream bos = new ByteArrayOutputStream();
 //                    ObjectOutputStream oos = new ObjectOutputStream(bos);
@@ -120,7 +121,7 @@ public class MySQL {
 //                    byte[] byteData = bos.toByteArray();
 //                    ByteArrayInputStream bais = new ByteArrayInputStream(byteData);
 //                    u = (User) new ObjectInputStream(bais).readObject();
-                    u=p;
+                    u = p;
                 }
             }
             tx.commit();
@@ -132,7 +133,7 @@ public class MySQL {
             }
             pm.close();
         }
-        System.out.println(u.getReservation().size());
+        System.out.println(u);
         return u;
     }
 }

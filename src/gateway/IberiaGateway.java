@@ -47,7 +47,10 @@ public class IberiaGateway implements IGateway{
 
             //Read response (a String) from the server
             String data = in.readUTF();
-            text=data;
+            Flight[] devuelve=transformToArray(data);
+            System.out.println("devuelve = " + devuelve);
+            System.out.println("IBERIA tamanyo" +devuelve.length);
+            return devuelve;
 
         } catch (UnknownHostException e) {
             System.err.println("# TCPSocketClient: Socket error: " + e.getMessage());

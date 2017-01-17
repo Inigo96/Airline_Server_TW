@@ -21,6 +21,8 @@ public class FlightManager {
 
     public synchronized Flight[] searchFlight(String departure, String arrival, GregorianCalendar date){
 
+        System.out.printf(departure+" "+arrival+" "+date);
+
         Flight [] temp;
         Flight [] temp2=new Flight[0];
 
@@ -39,6 +41,8 @@ public class FlightManager {
             }
             temp2= fusionArrays(temp,temp2);
         }
+
+        System.out.println("temp2 = " + temp2);
 
 
         return temp2;

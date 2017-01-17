@@ -10,7 +10,7 @@ import javax.jdo.annotations.PrimaryKey;
 import java.io.Serializable;
 import java.util.*;
 
-@PersistenceCapable
+@PersistenceCapable(detachable = "true")
 public class Flight implements Serializable{
 
 //	private String us;

@@ -42,9 +42,11 @@ public class AirFranceGateway implements IGateway{
             for(int a=0;a<airFrance_flights.length;a++) {
                 flights[a]=new Flight(airFrance_flights[a].getDepartureA(), airFrance_flights[a].getArrivalA(), airFrance_flights[a].getDate());
             }
+            System.out.println("Devuelvo VUELO AIR FRANCE "+flights.toString());
             return flights;
         } catch (RemoteException e) {
             e.printStackTrace();
+            System.out.println("NO Devuelvo VUELO AIR FRANCE");
             return new Flight[0];
         }
     }
