@@ -1,27 +1,34 @@
 package entities;
 
- import javax.jdo.annotations.Join;
+import javax.jdo.annotations.Join;
 import javax.jdo.annotations.PersistenceCapable;
+import javax.jdo.annotations.Persistent;
+import javax.jdo.annotations.PrimaryKey;
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
-
+import org.datanucleus.enhancement.*;
 
 @PersistenceCapable
-public class User {
+public class User implements Serializable{
+public User(){
 
+}
+
+	@PrimaryKey
 	private String username;
 
 	private String password;
+
 	@Join
 	private List<Reservation> reserveList;
 	
 	public User(String username, String password) {
-
 		this.username = username;
 		this.password = password;
 		reserveList=new ArrayList<>();
 	}
-	public User(){};
+	public User(String username, String password, List<Reservation> reservation){};
 
 	public void addReservation(Reservation r){
         reserveList.add(r);
@@ -31,6 +38,7 @@ public class User {
         return reserveList;
     }
 
+	public Reservation getLastReservation() {return reserveList.get(reserveList.size()-1);}
 
 	public String getUsername() {
 		return username;

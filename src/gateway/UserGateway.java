@@ -1,6 +1,5 @@
 package gateway;
 
-import db.EasyBookingDaoImplement;
 import entities.User;
 
 /**

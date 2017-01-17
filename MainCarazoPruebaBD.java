@@ -1,4 +1,3 @@
-import db.EasyBookingDao;
 import db.EasyBookingDaoImplement;
 import entities.*;
 
@@ -8,7 +7,7 @@ public class MainCarazoPruebaBD {
 	
     public static void main(String[] args) {
     	
-		 EasyBookingDao easyBookingDao=new EasyBookingDaoImplement(null);
+		 EasyBookingDaoImplement easyBookingDao=new EasyBookingDaoImplement(null);
 		 	//CREATE DATABASE
 		 	
 	        try {  
@@ -22,9 +21,7 @@ public class MainCarazoPruebaBD {
                 Flight f2 =new Flight ("Bilbao","Barcelona",date2);               
                 Flight f3 =new Flight ("Barcelona","Bilbao",date3);
                 Flight f4 =new Flight ("Barcelona","Madrid",date4);
-                
-       
-                
+
                 
                 Reservation r1=new Reservation();
                 	r1.addFlight(f1);
@@ -32,38 +29,48 @@ public class MainCarazoPruebaBD {
                 	r2.addFlight(f2);
                 Reservation r3=new Reservation();
                 	r3.addFlight(f3);
-                Reservation r4=new Reservation();
-                	r4.addFlight(f4);
+//                Reservation r4=new Reservation();
+//                	r4.addFlight(f4);
                 	
                 User u1=new User("user1","pass1");
                 	u1.addReservation(r1);
                 	u1.addReservation(r2);
-                User u2=new User("user2","pass2");
-                	u2.addReservation(r3);
-                	u2.addReservation(r4);
+//                User u2=new User("user2","pass2");
+//                	u2.addReservation(r3);
+//                	u2.addReservation(r4);
  
                 //flights       
-                easyBookingDao.storeFlight(f1);    
-                easyBookingDao.storeFlight(f2);    
-                easyBookingDao.storeFlight(f3);
-                easyBookingDao.storeFlight(f4);
+//                easyBookingDao.storeFlight(f1);
+//                easyBookingDao.storeFlight(f2);
+//                easyBookingDao.storeFlight(f3);
+//                easyBookingDao.storeFlight(f4);
                 //reservations
-                easyBookingDao.storeReservation(r1);    
-                easyBookingDao.storeReservation(r2);    
-                easyBookingDao.storeReservation(r3);    
-                easyBookingDao.storeReservation(r4);    
+//                easyBookingDao.storeReservation(r1);
+//                easyBookingDao.storeReservation(r2);
+//                easyBookingDao.storeReservation(r3);
+//                easyBookingDao.storeReservation(r4);
                 
                 //User 1            
                 easyBookingDao.storeUser(u1);
              
                 
                 //User 2 
-                easyBookingDao.storeUser(u2);
+//                easyBookingDao.storeUser(u2);
                 //Show all flights 
-                easyBookingDao.getAllFlights();      
+//                easyBookingDao.getAllFlights();
                 
                 //Show 1 user results
-                easyBookingDao.searchUser("user1");
+                User r=easyBookingDao.searchUser("user1");
+				System.out.println(r.getUsername());
+//				easyBookingDao.deleteUser(r);
+//                System.out.println("r.getUsername() = " + r.getUsername());
+//                System.out.println(r.getUsername());
+
+                //anyadir reserva -> usuario y reserva
+//                u1.addReservation(r3);
+//                easyBookingDao.addReservation(u1);
+//                r.addReservation(r3);
+//                easyBookingDao.storeUser(r);
                 
 	        } catch (Exception e) {
 	            e.printStackTrace();

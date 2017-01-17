@@ -6,21 +6,52 @@ import javax.jdo.*;
 import java.util.*;
 
 
-public class EasyBookingDaoImplement implements EasyBookingDao{
+public class carazoTraidor {
 PersistenceManagerFactory pmf;
     
     /** Constructor, defining the PersistenceManagerFactory to use. */
-    public EasyBookingDaoImplement(PersistenceManagerFactory pmf)
+    public carazoTraidor(PersistenceManagerFactory pmf)
     {
         this.pmf = pmf;
     }
 
-    public EasyBookingDaoImplement(){}
+    public carazoTraidor(){}
     
    
     
-   
-    
+   public void addReservation(User u){
+       deleteUser(u);
+       storeUser(u);
+   }
+
+    public void deleteUser(User u){
+        PersistenceManagerFactory pmfNoDeCarazo = JDOHelper.getPersistenceManagerFactory("datanucleus.properties");
+       PersistenceManager pm = pmfNoDeCarazo.getPersistenceManager();
+       Transaction tx = pm.currentTransaction();
+
+       try {
+           tx.begin();
+           Extent<User> extentP = pm.getExtent(User.class);
+
+           for (User p : extentP) {
+               System.out.println(p.getPassword());
+               if(p.getUsername().equals(u.getUsername())){
+                   System.out.println("ENTRE!!!!!!!!!!!!!!!!!");
+                   pm.deletePersistent(p);}
+           }
+
+           tx.commit();
+
+       } catch (Exception ex) {
+           System.out.println("# Error getting Extent: " + ex.getMessage());
+       } finally {
+           if (tx.isActive()) {
+               tx.rollback();
+           }
+           pm.close();
+       }
+    }
+
     public Extent<User> getAllUsers()
     {
     	
@@ -38,7 +69,6 @@ PersistenceManagerFactory pmf;
             for (User u : extentU) {
             	System.out.println((cont++) + "  - " + u.getUsername() + " - " + u.getPassword());
             }
-           
 
             tx.commit();
         }
@@ -52,11 +82,9 @@ PersistenceManagerFactory pmf;
         }
         return extentU;
     }
-    
+
     public Extent<Reservation> getAllReservations()
     {
-    	
-    	
     	PersistenceManagerFactory pmf = JDOHelper.getPersistenceManagerFactory("datanucleus.properties");
         PersistenceManager pm = pmf.getPersistenceManager();
         Transaction tx = pm.currentTransaction();
@@ -69,13 +97,8 @@ PersistenceManagerFactory pmf;
             int cont = 0;
             for (Reservation r : extentR) {
             	System.out.println((cont++) + " - " +r.toString());
-            	
             }
-           
-
             tx.commit();
-        
-
         }    finally
         {
             if (tx.isActive())
@@ -149,12 +172,6 @@ PersistenceManagerFactory pmf;
   }
  return users.get(0);
     }
-    	
-    	
-    
-    
-   
-    
 
     
     public  List<Flight> searchFlight(String departure,String arrival,GregorianCalendar date){
@@ -186,8 +203,7 @@ PersistenceManagerFactory pmf;
   }
        return flights;
     }
-    
- 
+
     
     public void storeUser(User u){
     	pmf = JDOHelper.getPersistenceManagerFactory("datanucleus.properties");

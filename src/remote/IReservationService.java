@@ -1,8 +1,6 @@
 package remote;
 
-import entities.Flight;
-import entities.Reservation;
-import entities.User;
+import entities.*;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;
@@ -13,8 +11,8 @@ import java.util.GregorianCalendar;
  * Created by inigo on 30/12/16.
  */
 public interface IReservationService extends Remote {
-    boolean createReservation(Flight f, User u) throws RemoteException;
-    Flight[] searchFlight(String departure, String arrival, GregorianCalendar date) throws RemoteException;
-    Reservation[] getReservations(User u) throws RemoteException;
-    User login(String email, String password) throws RemoteException;
+    boolean createReservation(FlightDTO f, UserDTO u) throws RemoteException;
+    FlightDTO[] searchFlight(String departure, String arrival, GregorianCalendar date) throws RemoteException;
+    ReservationDTO[] getReservations(UserDTO u) throws RemoteException;
+    UserDTO login(String email, String password) throws RemoteException;
 }

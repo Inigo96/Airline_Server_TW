@@ -10,6 +10,7 @@ import java.rmi.Naming;
 import java.rmi.NotBoundException;
 import java.rmi.Remote;
 import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
 import java.util.GregorianCalendar;
 
 /**
@@ -19,7 +20,7 @@ public class AirFranceGateway implements IGateway{
 
     private RMIServiceLocator serviceLocator;
 
-    public void initialize(String IP, String port, String serviceName){
+    public void initialize(String IP, String port, String serviceName) throws RemoteException {
         this.serviceLocator = new RMIServiceLocator();
         this.serviceLocator.setService(IP,port,serviceName);
     }
@@ -48,8 +49,11 @@ public class AirFranceGateway implements IGateway{
         }
     }
 
-    public class RMIServiceLocator{
+    public class RMIServiceLocator extends UnicastRemoteObject {
         private RMI_IFlights pf;
+
+        protected RMIServiceLocator() throws RemoteException {
+        }
 
         public void setService(String ip, String port, String serviceName) {
 

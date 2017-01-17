@@ -1,8 +1,9 @@
 package remote;
 
-import entities.Flight;
-import entities.Reservation;
-import entities.User;
+import assembler.AssemblerFlight;
+import assembler.AssemblerReservation;
+import assembler.AssemblerUser;
+import entities.*;
 import managers.FlightManager;
 import managers.ReservationManager;
 import managers.UserManager;
@@ -20,6 +21,9 @@ public class ReservationService_Façade extends UnicastRemoteObject implements I
     private FlightManager flightManager;
     private ReservationManager reservationManager;
     private UserManager userManager;
+    private AssemblerFlight aF;
+    private AssemblerReservation aR;
+    private AssemblerUser aU;
 
 
     public ReservationService_Façade(FlightManager flightManager, ReservationManager reservationManager, UserManager userManager) throws RemoteException {
@@ -27,26 +31,37 @@ public class ReservationService_Façade extends UnicastRemoteObject implements I
         this.flightManager=flightManager;
         this.reservationManager=reservationManager;
         this.userManager=userManager;
+        aF= new AssemblerFlight();
+        aR= new AssemblerReservation();
+        aU= new AssemblerUser();
     }
 
     @Override
-    public boolean createReservation(Flight f, User u) throws RemoteException {
-        return reservationManager.createReservation(u,f);
+    public boolean createReservation(FlightDTO f, UserDTO u) throws RemoteException {
+
+        return reservationManager.createReservation(aU.DesAssembleUser(u),aF.DesAssembleFlight(f));
     }
 
     @Override
-    public Flight[] searchFlight(String departure, String arrival, GregorianCalendar date) throws RemoteException {
-        return flightManager.searchFlight(departure,arrival,date);
+    public FlightDTO[] searchFlight(String departure, String arrival, GregorianCalendar date) throws RemoteException {
+        Flight[] lista=flightManager.searchFlight(departure, arrival, date);
+        FlightDTO[] listaDTO = new FlightDTO[lista.length];
+        for(int a=0;a<lista.length;a++) listaDTO[a]=aF.assembleFlight(lista[a]);
+        return listaDTO;
     }
 
     @Override
-    public Reservation[] getReservations(User u) throws RemoteException {
-        return (Reservation[])reservationManager.getReservations(u).toArray();
+    public ReservationDTO[] getReservations(UserDTO u) throws RemoteException {
+        Reservation[] lista=(Reservation[])reservationManager.getReservations(aU.DesAssembleUser(u)).toArray();
+        ReservationDTO[] listaDTO = new ReservationDTO[lista.length];
+        for(int a=0;a<lista.length;a++) listaDTO[a]=aR.assembleReservation(lista[a]);
+        return listaDTO;
+
     }
 
     @Override
-    public User login(String email, String password) throws RemoteException {
-        return this.userManager.login(email,password);
+    public UserDTO login(String email, String password) throws RemoteException {
+        return aU.assembleUser(this.userManager.login(email,password));
     }
 
     public static void run_Server(String ip, String port, String serviceName, FlightManager flightManager, ReservationManager reservationManager, UserManager userManager){

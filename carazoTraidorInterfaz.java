@@ -7,7 +7,7 @@ import javax.jdo.Extent;
 import java.util.*;
 
 
-public interface EasyBookingDao {
+public interface carazoTraidorInterfaz {
 	//Show all instances of the object
 	
     public Extent<User> getAllUsers();

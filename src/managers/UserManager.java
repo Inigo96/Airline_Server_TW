@@ -1,6 +1,6 @@
 package managers;
 
-import db.EasyBookingDaoImplement;
+import db.MySQL;
 import entities.User;
 import gateway.UserGateway;
 
@@ -8,19 +8,24 @@ import gateway.UserGateway;
  * Created by pablocabezali on 15/1/17.
  */
 public class UserManager {
-    private EasyBookingDaoImplement a = new EasyBookingDaoImplement(null);
-    public User login(String username, String password) {
+    private MySQL a;
 
+    public UserManager(MySQL bd){
+        a=bd;
+    }
 
-        if (a.searchUser(username) != null) {
-            if (a.searchUser(username).getPassword().equals(password)) {
-                return a.searchUser(username);
+    public synchronized User login(String username, String password) {
+
+        User u=a.getUser(username);
+        if (u != null) {
+            if (u.getPassword().equals(password)) {
+                return u;
             } else {
                 System.out.println("Wrong password ");
                 return null;
             }
         } else if (UserGateway.getInstance().login(username, password)) {
-            User u = new User(username, password);
+            u = new User(username, password);
             a.storeUser(u);
             return u;
         }

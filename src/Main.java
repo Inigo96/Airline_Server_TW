@@ -1,4 +1,4 @@
-import airFrance.AirFrance_Flight;
+import db.MySQL;
 import gateway.AirFranceGateway;
 import gateway.IGateway;
 import gateway.IberiaGateway;
@@ -7,11 +7,13 @@ import managers.ReservationManager;
 import managers.UserManager;
 import remote.ReservationService_Façade;
 
+import java.rmi.RemoteException;
+
 /**
  * Created by inigo on 15/01/17.
  */
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws RemoteException {
         //This SERVER ARGUMENTS
         String serverIP = args[0];
         String serverPort = args[1];
@@ -34,11 +36,14 @@ public class Main {
             arrayIgateways[1] = airFrance;
         FlightManager flightManager = new FlightManager(arrayIgateways);
 
+        //Initialize bd
+        MySQL bd=new MySQL();
+
         //Reservation Manager
-        ReservationManager reservationManager = new ReservationManager();
+        ReservationManager reservationManager = new ReservationManager(bd);
 
         //UserManager
-        UserManager userManager = new UserManager();
+        UserManager userManager = new UserManager(bd);
 
         //Initialize bd
 

@@ -49,11 +49,11 @@
         <mkdir dir="${bin.dir}"/>
     </target>
 
-    <!--<target name="build" description="Builds the project">-->
-        <!--<delete dir="${build.dir}"/>-->
-        <!--<mkdir dir="${build.dir}"/>-->
-        <!--<javac srcdir="${source.dir}" destdir="${build.dir}" classpathref="classpath" deprecation="true" fork="true" includeAntRuntime="no"/>-->
-    <!--</target>-->
+    <target name="build" description="Builds the project">
+        <delete dir="${build.dir}"/>
+        <mkdir dir="${build.dir}"/>
+        <javac srcdir="${source.dir}" destdir="${build.dir}" classpathref="classpath" deprecation="true" fork="true" includeAntRuntime="no"/>
+    </target>
 
     <!-- TARGET : compile -->
     <target name="compile" depends="clean, prepare">
@@ -105,11 +105,11 @@
     </target>
 	
     <!-- TARGET : Run -->	
-	<target name="run" depends=" createschema">
-        <java classname="MainCarazoPruebaBD" classpathref="classpath" fork="true">
-            <jvmarg value="-Dlog4j.configuration=log4j.properties"/>
+	<target name="run" depends="createschema">
+        <java classname="Main" classpathref="classpath" fork="true">
             <jvmarg value="-Djava.rmi.server.codebase=file:${build.dir}/"/>
             <jvmarg value="-Djava.security.policy=${policy.file}"/>
+            <jvmarg value="-Dlog4j.configuration=log4j.properties"/>
             <arg value="${server.IP}"/>
             <arg value="${server.port}"/>
             <arg value="${server.Name}"/>

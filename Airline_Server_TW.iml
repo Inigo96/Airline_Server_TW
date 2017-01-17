@@ -10,5 +10,6 @@
     <orderEntry type="library" name="datanucleus-api-jdo-5.0.3" level="project" />
     <orderEntry type="library" name="datanucleus-core-5.0.3" level="project" />
     <orderEntry type="library" name="AirFrance" level="project" />
+    <orderEntry type="library" name="jdo-api-3.1-rc1" level="project" />
   </component>
 </module>

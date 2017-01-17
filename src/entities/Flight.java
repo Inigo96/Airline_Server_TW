@@ -2,17 +2,18 @@ package entities;
 
 import javax.jdo.annotations.Join;
 import javax.jdo.annotations.PersistenceCapable;
+import org.datanucleus.enhancement.*;
 import javax.jdo.annotations.Persistent;
 import javax.jdo.annotations.IdGeneratorStrategy;
 import javax.jdo.annotations.PrimaryKey;
 
+import java.io.Serializable;
 import java.util.*;
-//import com.google.appengine.api.datastore.Key;
-
 
 @PersistenceCapable
-public class Flight { 
+public class Flight implements Serializable{
 
+//	private String us;
 private	String departureA;
 private String arrivalA;
 private GregorianCalendar date;

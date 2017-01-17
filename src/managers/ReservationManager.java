@@ -1,30 +1,31 @@
 package managers;
 
-import db.EasyBookingDaoImplement;
+import db.MySQL;
 import entities.Flight;
 import entities.Reservation;
 import entities.User;
-import java.util.ArrayList;
+
 import java.util.List;
 
 /**
  * Created by pablocabezali on 15/1/17.
  */
 public class ReservationManager {
-    private EasyBookingDaoImplement a = new EasyBookingDaoImplement(null);
+    private MySQL a;
 
-    public boolean createReservation(User u, Flight f) {
+    public ReservationManager(MySQL bd){
+        a=bd;
+    }
+
+    public synchronized boolean createReservation(User u, Flight f) {
         Reservation r = new Reservation();
         r.addFlight(f);
-        u.addReservation(r);
-
-        a.storeReservation(r);
+        a.addReservation(u,r);
         return true;
     }
 
-    public List<Reservation> getReservations(User u) {
-        List<Reservation> reserveList = new ArrayList<>();
-        reserveList = u.getReservation();
+    public synchronized List<Reservation> getReservations(User u) {
+        List<Reservation> reserveList = u.getReservation();
         return reserveList;
     }
 }

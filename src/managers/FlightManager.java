@@ -19,7 +19,7 @@ public class FlightManager {
         this.arrayGateway = arrayGateway;
     }
 
-    public Flight[] searchFlight(String departure, String arrival, GregorianCalendar date){
+    public synchronized Flight[] searchFlight(String departure, String arrival, GregorianCalendar date){
 
         Flight [] temp;
         Flight [] temp2=new Flight[0];
@@ -43,7 +43,7 @@ public class FlightManager {
 
         return temp2;
     }
-    private Flight[] fusionArrays(Flight[] a, Flight[] b){
+    private synchronized Flight[] fusionArrays(Flight[] a, Flight[] b){
         Flight[] fusion= new Flight[a.length+b.length];
         for(int i=0;i<a.length;i++){
             fusion[i]=a[i];
