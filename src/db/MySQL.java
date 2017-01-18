@@ -69,7 +69,7 @@ public class MySQL implements IMySQL {
 
     @Override
     public void addReservation(User u, Reservation r) {
-        System.out.println("Add reservation "+u.getReservation());
+        System.out.println("Add reservation "+r);
         PersistenceManager pm = pmf.getPersistenceManager();
         Transaction tx = pm.currentTransaction();
 
@@ -78,8 +78,8 @@ public class MySQL implements IMySQL {
             Extent<User> extentP = pm.getExtent(User.class);
 
             for (User p : extentP) {
-                System.out.println(p.getUsername());
-                System.out.println(u.getUsername());
+//                System.out.println(p.getUsername());
+//                System.out.println(u.getUsername());
                 if(p.getUsername().equals(u.getUsername()))
                 {
                     System.out.println("ENTRE!!!!!!!!!!!!!!!!!");

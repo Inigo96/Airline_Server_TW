@@ -38,25 +38,29 @@ public class ReservationService_Façade extends UnicastRemoteObject implements I
 
     @Override
     public boolean createReservation(FlightDTO f, UserDTO u) throws RemoteException {
+        System.out.println(aU.DesAssembleUser(u).getUsername()+" mostrar usuario email");
         return reservationManager.createReservation(aU.DesAssembleUser(u),aF.DesAssembleFlight(f));
     }
 
     @Override
     public FlightDTO[] searchFlight(String departure, String arrival, GregorianCalendar date) throws RemoteException {
+        System.out.println("Se ha pedido buscar un vuelo");
         Flight[] lista=flightManager.searchFlight(departure, arrival, date);
+        System.out.println("lista = " + lista);
         FlightDTO[] listaDTO = new FlightDTO[lista.length];
         for(int a=0;a<lista.length;a++) listaDTO[a]=aF.assembleFlight(lista[a]);
+        System.out.println(listaDTO[0]);
         return listaDTO;
     }
 
-    @Override
-    public ReservationDTO[] getReservations(UserDTO u) throws RemoteException {
-        Reservation[] lista=(Reservation[])reservationManager.getReservations(aU.DesAssembleUser(u)).toArray();
-        ReservationDTO[] listaDTO = new ReservationDTO[lista.length];
-        for(int a=0;a<lista.length;a++) listaDTO[a]=aR.assembleReservation(lista[a]);
-        return listaDTO;
-
-    }
+//    @Override
+//    public ReservationDTO[] getReservations(UserDTO u) throws RemoteException {
+//        Reservation[] lista=(Reservation[])reservationManager.getReservations(aU.DesAssembleUser(u)).toArray();
+//        ReservationDTO[] listaDTO = new ReservationDTO[lista.length];
+//        for(int a=0;a<lista.length;a++) listaDTO[a]=aR.assembleReservation(lista[a]);
+//        return listaDTO;
+//
+//    }
 
     @Override
     public UserDTO login(String email, String password) throws RemoteException {

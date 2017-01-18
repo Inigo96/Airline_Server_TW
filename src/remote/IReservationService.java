@@ -13,6 +13,6 @@ import java.util.GregorianCalendar;
 public interface IReservationService extends Remote {
     boolean createReservation(FlightDTO f, UserDTO u) throws RemoteException;
     FlightDTO[] searchFlight(String departure, String arrival, GregorianCalendar date) throws RemoteException;
-    ReservationDTO[] getReservations(UserDTO u) throws RemoteException;
+//    ReservationDTO[] getReservations(UserDTO u) throws RemoteException;
     UserDTO login(String email, String password) throws RemoteException;
 }

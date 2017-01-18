@@ -42,7 +42,9 @@ public class IberiaGateway implements IGateway{
 
             //Send request (a Srting) to the server
             String text;
+            System.out.println(date.getTimeInMillis());
             text= departure+"$$$$$$$$$#"+arrival+"$$$$$$$$$#"+date.getTimeInMillis();
+            System.out.println("text = " + text);
             out.writeUTF(text);
 
             //Read response (a String) from the server

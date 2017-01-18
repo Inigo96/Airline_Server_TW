@@ -28,7 +28,11 @@ public User(){
 		this.password = password;
 		reserveList=new ArrayList<>();
 	}
-	public User(String username, String password, List<Reservation> reservation){};
+	public User(String username, String password, List<Reservation> reservation){
+		this.username = username;
+		this.password = password;
+		reserveList=reservation;
+	};
 
 	public void addReservation(Reservation r){
         reserveList.add(r);

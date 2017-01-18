@@ -65,7 +65,7 @@
     <target name="export" depends="compile" description="Export the project into a .jar file">
         <delete dir="${dist.dir}"/>
         <mkdir dir="${dist.dir}"/>
-        <jar destfile="${dist.dir}/${export.file}" basedir="${build.dir}" excludes="**/Server.class"/>
+        <jar destfile="${dist.dir}/${export.file}" basedir="${build.dir}" includes="entities/FlightDTO.class,entities/ReservationDTO.class,entities/UserDTO.class,remote/IReservationService.class"/>
     </target>
 
     <!-- TARGET : enhance -->

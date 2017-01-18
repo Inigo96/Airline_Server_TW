@@ -20,12 +20,13 @@ public class ReservationManager {
     public synchronized boolean createReservation(User u, Flight f) {
         Reservation r = new Reservation();
         r.addFlight(f);
+        System.out.println("Entro en el guardado del vuelo");
         a.addReservation(u,r);
         return true;
     }
 
-    public synchronized List<Reservation> getReservations(User u) {
-        List<Reservation> reserveList = u.getReservation();
-        return reserveList;
-    }
+//    public synchronized List<Reservation> getReservations(User u) {
+//        List<Reservation> reserveList = u.getReservation();
+//        return reserveList;
+//    }
 }
